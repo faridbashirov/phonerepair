@@ -1,0 +1,11 @@
+.navbar ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px !important;
+}
+.topheader li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px !important;
+}
+.topheader li a:last-child{
+    
+}
