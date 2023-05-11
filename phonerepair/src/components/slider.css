@@ -46,3 +46,10 @@ button{
 .slider-overlay{
    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
 }
+.slider-img img{
+  transition: all .2s ease-in-out;
+}
+.slider-img img:hover{
+  transform: translateY(-10px);
+
+}

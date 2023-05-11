@@ -5,4 +5,16 @@ button{
 }
 .card:hover{
     transform: scale(1.05);
+    cursor: pointer;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root{
+    transition: unset !important;
+    -webkit-transition: none !important;
+}
+.css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root:hover{
+    background: none !important;
+}
+.css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root{
+    background: none !important;
 }

@@ -54,11 +54,11 @@ const Navbar = () => {
                 <ul className='flex w-full justify-between'>
                 <li> <Link to="/">Home</Link> </li>
                 <li> <Link to="about">About</Link> </li>
-                <li><Link>Services</Link> </li>
+                <li><Link to="services">Services</Link> </li>
                 <li><Link to="sell">Sell</Link> </li>
                 <li> <Link to="buy">Buy</Link></li>
-                <li><Link>Blogs</Link> </li>
-                <li> <Link>Contact</Link> </li>
+                <li><Link to="blog">Blogs</Link> </li>
+                <li> <Link to="contact">Contact</Link> </li>
                 </ul>
 
                
@@ -67,22 +67,21 @@ const Navbar = () => {
                  
                    
                 </div>
-                <GiHamburgerMenu onClick={mobilenavbar} className='block lg:hidden'/>
+                <GiHamburgerMenu onClick={mobilenavbar} className='block lg:hidden text-5xl'/>
                 { navbar &&  <div className='fixed w-full bottom-0 left-0 top-0 right-0 z-[100]  h-screen  bg-[#00000070]'>
                  <div className='mobilenavbar     h-screen  w-[100%] lg:w-[30%] z-[100] fixed right-0 bg-[#2d363e] bottom-0 text-white  ' >
-                    <ul className='flex flex-col items-center lg:items-start   py-2 pl-2 pt-10 w-[100%]  '>
-                    <li className='border-b-[1px] w-[100%] lg:text-start' > Home</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start'> About </li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start'> Services</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start'> Sell</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start'> Buy</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start'> Blogs</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start'> Contact</li>
-                    <li> icon</li>
+                    <ul className='flex flex-col items-center lg:items-start   py-2 pl-2 pt-10 w-[100%] pt-20 '>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5' > Home</li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> About </li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Services</li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Sell</li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Buy</li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Blogs</li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Contact</li>
                         
                     </ul>
 
-                    <IoMdClose onClick={mobilenavbar} className='text-white absolute right-2 top-2 '/>
+                    <IoMdClose onClick={mobilenavbar} className='text-white text-3xl absolute right-2 top-2 '/>
 
 
 

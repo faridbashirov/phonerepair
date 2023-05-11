@@ -33,7 +33,7 @@ const responsive = {
 const Carousels = () => {
   return (
     <div className="h-[300px] w-full bg-[#22282e] flex flex-col align-items-center justify-content-center py-10 items-center border-b-[1px]">
-      <h2 className='text-white text-[32px] lg:text-[44px] font-medium mb-8'>Our Clients</h2>
+      <h2 className='text-white text-[32px] lg:text-[44px] font-medium mb-8 sub-text'>Our Clients</h2>
         <Carousel responsive={responsive} className='h-[300px] w-full' infinite={true}
   autoPlay={true }
   autoPlaySpeed={1500}
