@@ -24,9 +24,9 @@ const Slider = () => {
 
             </div>
 
-            <div className='w-[100%] hidden lg:block lg:w-[40%] mt-10 '> 
+            <div className='w-[100%] hidden lg:block lg:w-[42%] mt-10 slider-img '> 
 
-                <img className='w-full h-[400px] object-cover' src="https://plus.unsplash.com/premium_photo-1681666713728-9ed75e148617?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"/>
+                <img className='w-full h-[400px] object-cover' src="https://www.pngall.com/wp-content/uploads/2016/05/Laptop-PNG.png"/>
             </div>
 
         </div>

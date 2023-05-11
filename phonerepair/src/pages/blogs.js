@@ -5,20 +5,23 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import '../components/Blog-page.css'
 
 
 const Blog = () => {
   return (
-    <div className='flex py-40 w-[90%] mx-auto'>
-         <div className='flex flex-col w-[50%] lg:w-[50%]  items-center'>
-    <VscTools className='text-5xl  text-[#f2480c]'/>
+    <div className=' py-20 w-[96%] mx-auto'>
+       <VscTools className='text-5xl  text-[#f2480c]'/>
 
-    <h2 className='lg:text-[44px] text-[32px]'>Get started with your device repair</h2>
-    <p className='mt-5 w-[80%]'> Dolor sit amet consectetur elit eiusmod tempor dunt aliqua utas enim veniam tempore quis sed ipsum nostrud ipsum lorem
+<h2 className='lg:text-[44px] text-[32px] font-semibold'>Get started with your device repair</h2>
+<p className='mt-5 w-[full] sub-text'> Dolor sit amet consectetur elit eiusmod tempor dunt aliqua utas enim veniam tempore quis sed ipsum nostrud ipsum lorem
 amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliquat.</p>
+<div className='w-full flex lg:flex-row flex-col justify-between mt-20'>
+         <div className='flex flex-col w-[full]  lg:w-[70%]  items-center'>
+   
 
-   <div className='cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 my-10 lg:flex-row '>
-   <Card  className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
+   <div className='cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 lg:flex-row '>
+   <Card  className='card w-[96%] sm:w-[47%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[520px] xl:h-[500px]  2xl:h-[680px]  flex flex-col items-center mb-15'>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -43,7 +46,7 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
         </button>
       </CardActions>
     </Card>
-    <Card  className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
+    <Card  className='card w-[96%] sm:w-[47%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[520px] xl:h-[500px]  2xl:h-[680px]  flex flex-col items-center mb-15'>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -68,7 +71,7 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
         </button>
       </CardActions>
     </Card>
-    <Card  className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
+    <Card  className='card w-[96%] sm:w-[47%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[520px] xl:h-[500px]  2xl:h-[680px]  flex flex-col items-center mb-15'>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -93,7 +96,7 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
         </button>
       </CardActions>
     </Card>
-    <Card  className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
+    <Card  className='card w-[96%] sm:w-[47%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[520px] xl:h-[500px]  2xl:h-[680px]  flex flex-col items-center mb-15'>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -118,15 +121,26 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
         </button>
       </CardActions>
     </Card>
+   
 
 
    </div>
+
    
  
       
   </div>
-  <div className='w-[50%]'>
-    <h2>Categories</h2>
+  <div className='w-full lg:w-[30%] mt-20 lg:mt-0 py-10 px-10 text-start category-blog'>
+    <h2 className='font-semibold text-xl footer-header'>Categories</h2>
+    <ul className='mt-10'>
+      <li className='mb-7 font-medium hover:text-[#f2480c]'><a href=''>Category</a></li>
+      <li className='mb-7 font-medium hover:text-[#f2480c]'><a href=''>Category</a></li>
+      <li className='mb-7 font-medium hover:text-[#f2480c]'><a href=''>Category</a></li>
+      <li className='mb-7 font-medium hover:text-[#f2480c]'><a href=''>Category</a></li>
+      <li className='mb-7 font-medium hover:text-[#f2480c]'><a href=''>Category</a></li>
+
+    </ul>
+   </div>
    </div>
 
 

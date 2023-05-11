@@ -31,7 +31,7 @@ const Offers = () => {
         <div className='flex flex-col  items-center  py-16'>
            <VscTools className=' text-5xl text-[#f2480c] '/>
            <h2 className='text-[#fff] uppercase lg:text-[44px] my-2 text-[32px] offer'>Featured Offers</h2>
-           <p className='text-white text-[10px]'>BEST SERVICES ATY DISCOUNTED PRICE</p>
+           <p className='text-white text-[15px] sub-text'>BEST SERVICES ATY DISCOUNTED PRICE</p>
 
         
         </div>
