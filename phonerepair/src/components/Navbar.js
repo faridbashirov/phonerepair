@@ -1,12 +1,14 @@
 import React from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import {GiHamburgerMenu} from "react-icons/gi"
 import {IoMdClose} from "react-icons/io"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {BsFacebook} from "react-icons/bs"
 import {FiPhoneCall} from "react-icons/fi"
+import Footer from './Footer'
 import './navbar.css'
+
 const Navbar = () => {
 
     const [navbar,Setnavbar] = useState(false)
@@ -50,11 +52,11 @@ const Navbar = () => {
                 
                 <div className='navitems w-[40%] hidden lg:flex lg:w-[60%] lg:w-[40%] xl:w-[40%] xxl:w-[40%] '>
                 <ul className='flex w-full justify-between'>
-                <li> <Link>Home</Link> </li>
-                <li> <Link>About</Link> </li>
+                <li> <Link to="/">Home</Link> </li>
+                <li> <Link to="about">About</Link> </li>
                 <li><Link>Services</Link> </li>
-                <li><Link>Sell</Link> </li>
-                <li> <Link>Buy</Link></li>
+                <li><Link to="sell">Sell</Link> </li>
+                <li> <Link to="buy">Buy</Link></li>
                 <li><Link>Blogs</Link> </li>
                 <li> <Link>Contact</Link> </li>
                 </ul>
@@ -91,6 +93,8 @@ const Navbar = () => {
             </div>
   
         </div>
+        <Outlet/>
+        <Footer/>
        
     </div>
   )

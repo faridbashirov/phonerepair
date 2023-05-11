@@ -19,7 +19,7 @@ const Home = () => {
         <After/>
         <Blogs/>
         <Carousels/>
-        <Footer/>
+       
 
     </div>
   )
