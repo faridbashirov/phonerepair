@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import './Offers.css'
 
 const imageDict={
     
@@ -26,16 +27,16 @@ const Offers = () => {
   }
 
   return (
-    <div className='h-auto lg:h-[1000px] bg-[#22282e] w-full'>
+    <div className='h-auto lg:h-[1000px] bg-[#22282e] w-full py-20 lg:py-0'>
         <div className='flex flex-col  items-center  py-16'>
            <VscTools className=' text-5xl text-[#f2480c] '/>
-           <h2 className='text-white text-5xl my-2'>Featured Offers</h2>
+           <h2 className='text-[#fff] uppercase lg:text-[44px] my-2 text-[32px] offer'>Featured Offers</h2>
            <p className='text-white text-[10px]'>BEST SERVICES ATY DISCOUNTED PRICE</p>
 
         
         </div>
 
-       <div className='flex flex-col lg:flex-row  w-[90%] lg:w-[90%] mx-auto  items-center  justify-between'> 
+       <div className='flex flex-col lg:flex-row py-30 lg:py-0 w-[96%] lg:w-[96%] mx-auto  items-center  justify-between'> 
 
 
          <div className=' flex flex-col items-center justify-between h-[700px]  w-[100%] lg:w-[43%] items-center  lg:[600px]'>

@@ -1,14 +1,48 @@
 .slider{
-   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url("https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
    background-size: cover;
    background-repeat: no-repeat;
+   
+  animation: image 10s infinite alternate;
 }
+@keyframes image {
+   0% {
+     background-image: url('https://unsplash.it/600/600');
+   }
+   20% {
+     background-image: url('https://unsplash.it/601/601');
+   }
+   40% {
+      background-image: url('https://unsplash.it/600/600');
+    }
+    60% {
+      background-image: url('https://unsplash.it/601/601');
+    }
+    80% {
+      background-image: url('https://unsplash.it/600/600');
+    }
+    100% {
+      background-image: url('https://unsplash.it/601/601');
+    }
+ }
 .slider span{
     
     display: inline-block;
     color: white;
- line-height: 60px;
  font-weight: 300;
  margin-left:20px;
+ font-family: 'Raleway', sans-serif;
 
+}
+p{
+   font-size: 20px;
+   font-weight: 400;
+   color: rgb(255, 255, 255);
+   letter-spacing: 0px;
+   font-family: "Open Sans";
+}
+button{
+   font-weight: 600;
+}
+.slider-overlay{
+   background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
 }
