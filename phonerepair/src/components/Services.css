@@ -1,0 +1,8 @@
+button{
+    transition: all .4s ease-in-out;
+}.card{
+    transition: all .4s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}

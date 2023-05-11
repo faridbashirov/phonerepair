@@ -1,0 +1,26 @@
+.footer{
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url('https://unsplash.it/600/600');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer input:focus,.footer input:active{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.focus-within\:ring:focus-within {
+    --tw-ring-offset-shadow:none !important;
+    --tw-ring-shadow:none !important;
+    box-shadow: none !important;
+}
+.footer button{
+    transition: all .4s ease-in-out;
+}
+.footer ul li a{
+    font-size: 16px;
+}
+.footer h3{
+    font-size: 20px;
+}
+svg{
+    display: unset !important;
+}

@@ -1,11 +1,66 @@
+*{
+ font-family: 'Raleway', sans-serif;
+}
 .navbar ul li a{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px !important;
+ font-family: 'Raleway', sans-serif;
+    font-size: 16px !important;
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .topheader li a{
-    font-family: 'Open Sans', sans-serif;
+ font-family: 'Raleway', sans-serif;
+    font-size: 20px !important;
+}
+.topheader li:last-child a{
     font-size: 17px !important;
 }
-.topheader li a:last-child{
+.btn-estimate,.btn-repair{
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+  
     
+}
+.social{
+    transition: all .4s ease-in-out;
+}
+.navbar ul li a:hover{
+    color: #f2480c;
+}
+.call-number span {
+    font-weight: 700;
+    letter-spacing: .8px;
+    color: #fff !important;
+    font-size: 24px;
+}
+.trin-trin
+{
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    font-size: 25px;
+    vertical-align: middle;
+}
+@keyframes trin {
+
+    from {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+    20%, 32%, 44%, 56%, 68% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    23%, 35%, 47%, 59%, 71% {
+        transform: rotate3d(0,0,1,15deg);
+    }
+    26%, 38%, 50%, 62%, 74% {
+        transform: rotate3d(0,0,1,0deg);
+    }
+    29%, 41%, 53%, 65%, 77% {
+        transform: rotate3d(0,0,1,-15deg);
+    }
+    80% {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+
 }

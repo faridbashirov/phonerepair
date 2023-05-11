@@ -20,29 +20,29 @@ const Navbar = () => {
   return (
     <div>
         <div className=' py-10 w-full h-[40px]  bg-[#22282e] hidden lg:block  text-white '>
-        <div className='topheader w-[90%] h-full mx-auto justify-between hidden items-center lg:flex '>
+        <div className='topheader w-[95%] h-full mx-auto justify-between hidden items-center lg:flex '>
             <div className='leftside'>
                 <ul>
-                <li> <Link className='text-white text-xl flex items-center '><FiPhoneCall /> <span className='mx-2'>12312321312</span> </Link></li>
+                <li className='call-number'> <Link className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2'>12312321312</span> </Link></li>
                 
                 </ul>
             </div>
-            <div className='rightside items-center flex w-[100%] sm:w-[100%] md:w-[50%] lg:w-[60%] xl:w-[55%] xxl:w-[55%] justify-between '> 
+            <div className='rightside items-center flex w-[100%] sm:w-[100%] md:w-[50%] lg:w-[55%] xl:w-[48%] xxl:w-[25%] justify-between '> 
                 
                 <ul className='flex   justify-between items-center'>
                 <span>Follow us</span>
-                    <li className='mx-4'><Link to=""><AiOutlineInstagram/> </Link></li>
-                    <li><Link to=""><BsFacebook/> </Link></li>
+                    <li className='mx-4'><Link to="" className='hover:text-[#f2480c] social'><AiOutlineInstagram/> </Link></li>
+                    <li><Link to="" className='hover:text-[#f2480c] social'><BsFacebook/> </Link></li>
                   </ul>
-                <button className='bg-white text-black px-10 py-2 border-0 rounded-full hover:bg-[#8cc652] hover:text-white    '><Link to="">Free estimate</Link></button>
-                <button className='bg-white text-black px-10 py-2 border-0 rounded-full hover:bg-[#8cc652] hover:text-white   '> Repair status</button>
+                <button className='bg-white text-black px-10 py-2 border-0 rounded-full hover:bg-[#f2480c] hover:text-white  btn-repair  '><Link to="">Free estimate</Link></button>
+                <button className='bg-white text-black px-10 py-2 border-0 rounded-full hover:bg-[#f2480c] hover:text-white  btn-estimate '> Repair status</button>
             </div>
 
         </div>
         </div>
 
         <div className='navbar py-10   w-full bg-[#2d363e] text-white h-[120px] lg:h-[100px] flex items-center  '>
-            <div className=' w-[90%] mx-auto flex justify-between items-center'>
+            <div className=' w-[95%] mx-auto flex justify-between items-center'>
                 <div className='logo'>
                     <img className='w-[150px] h-[50px] object-cover    ' src='https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=2000'></img>
                     
