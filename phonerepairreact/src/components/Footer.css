@@ -1,0 +1,43 @@
+.footer{
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url('https://unsplash.it/600/600');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer input:focus,.footer input:active{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.focus-within\:ring:focus-within {
+    --tw-ring-offset-shadow:none !important;
+    --tw-ring-shadow:none !important;
+    box-shadow: none !important;
+}
+.footer button{
+    transition: all .4s ease-in-out;
+}
+.footer ul li a{
+    font-size: 16px;
+}
+.footer h3{
+    font-size: 20px;
+}
+svg{
+    display: unset !important;
+}
+
+.footer-header:after {
+    content: '';
+    position: absolute;
+    width: 3.4rem;
+    height: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    left: 0%;
+    bottom: -10px;
+    background-color: #f2480c;
+}
+
+.footer-header{
+    position: relative;
+}

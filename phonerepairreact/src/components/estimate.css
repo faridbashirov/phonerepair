@@ -1,0 +1,9 @@
+.form-input textarea{
+    border-radius: 15px;
+}
+.estimate-page{
+    background-image: url('https://fixzonecypress.com/static/images/estimate.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
