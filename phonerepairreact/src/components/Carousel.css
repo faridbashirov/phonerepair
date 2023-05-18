@@ -1,6 +1,0 @@
-.carousel-item{
-    transition: all .4s ease-in-out;
-}
-.carousel-item:hover{
-    transform: scale(1.05);
-}
