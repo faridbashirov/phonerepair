@@ -6,3 +6,9 @@ button{
 .card:hover{
     transform: scale(1.05);
 }
+
+.service-cards .card{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+}

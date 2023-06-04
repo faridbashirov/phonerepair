@@ -10,6 +10,9 @@ import Services from './pages/services';
 import Contact from './pages/contact';
 import Problem from './components/Problem';
 import { Routes,Route } from 'react-router-dom';
+import BlogDetail from './pages/blog-detail';
+import ServiceDetail from './pages/service-detail';
+import Estimate from './pages/estimate';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
         <Route path='blog' element={<Blog/>}/>
         <Route path='services' element={<Services/>}/>
         <Route path='contact' element={<Contact/>}/>
+        <Route path='blog-detail' element={<BlogDetail/>}/>
+        <Route path='service-detail' element={<ServiceDetail/>}/>
+        <Route path='estimate' element={<Estimate/>}/>
 
         
         </Route>
