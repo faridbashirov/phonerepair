@@ -15,7 +15,7 @@ const about = () => {
             </p>
          </div>
          <div className='w-full lg:w-[50%] '>
-            <img alt='image' className='w-full md:w-[full] h-[auto] mt-10 lg:mt-0 lg:h-[330px] xl:h-[400px]' src='https://fixzonecypress.com/static/images/about-1.png'/>
+            <img alt='service' className='w-full md:w-[full] h-[auto] mt-10 lg:mt-0 lg:h-[330px] xl:h-[400px]' src='https://fixzonecypress.com/static/images/about-1.png'/>
          </div>
 
 

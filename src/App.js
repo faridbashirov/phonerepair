@@ -8,7 +8,7 @@ import Buy from './pages/buy';
 import Blog from './pages/blogs';
 import Services from './pages/services';
 import Contact from './pages/contact';
-import Problem from './components/Problem';
+
 import BlogDetail from './pages/blogDetail';
 import ServiceDetail from './pages/serviceDetail';
 import Estimate from './pages/estimate';

@@ -35,20 +35,20 @@ const Carousels = () => {
   autoPlaySpeed={1500}
   >
   <div className='carousel-item'>   
-    <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='image' className='w-[90%] mx-auto'/>
+    <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='service' className='w-[90%] mx-auto'/>
   </div>
   <div className='carousel-item'>  <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='image' className='w-[90%] mx-auto'/> </div>
   <div className='carousel-item'><img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='image' className='w-[90%] mx-auto'/></div>
   <div className='carousel-item'>
-  <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='image' className='w-[90%] mx-auto'/>
+  <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='service' className='w-[90%] mx-auto'/>
     
      </div>
      <div className='carousel-item'>
-  <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='image' className='w-[90%] mx-auto'/>
+  <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='service' className='w-[90%] mx-auto'/>
     
      </div>
      <div className='carousel-item'>
-  <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='image' className='w-[90%] mx-auto'/>
+  <img src='https://ambulanceappliance.com/static/images/brands/1.png' alt='service' className='w-[90%] mx-auto'/>
     
      </div>
 </Carousel>;

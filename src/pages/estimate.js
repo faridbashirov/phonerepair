@@ -11,7 +11,7 @@ const Estimate = () => {
    const [device,setDevice] = useState([])
    const [repair,setRepair] = useState([])
    const [status,setStatus] = useState(false)
-   const [success,setSuccess] = useState(false)
+  
 
    const [error,setError]=useState(false)
    const [errors,setErrors]=useState([])

@@ -55,7 +55,7 @@ const Footer = () => {
         
 
         <div class="col-span-3 sm:col-span-1">
-          <img className='w-[163px] h-[44px] mx-auto lg:mx-0' alt='image' src='https://fixzonecypress.com/static/images/logo_white.png' />
+          <img className='w-[163px] h-[44px] mx-auto lg:mx-0' alt='service' src='https://fixzonecypress.com/static/images/logo_white.png' />
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
             <ul class="space-y-4 text-sm text-start">

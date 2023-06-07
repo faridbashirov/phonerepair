@@ -22,10 +22,7 @@ const Offers = () => {
     
    const [hover,Sethover]=useState(imageDict["battery"])
 
-  const setScreen = (filter)=>{
-    Sethover(imageDict[filter])
-
-  }
+ 
 
   return (
     <div className='h-auto lg:h-[1000px] bg-[#22282e] w-full py-20 lg:py-0 offers'>
@@ -99,7 +96,7 @@ const Offers = () => {
 
          </div>
          <div className=' hidden lg:block text-center' >
-            <img alt='image' className=''  src={hover}></img>
+            <img alt='service' className=''  src={hover}></img>
          </div>
          <div className=' flex flex-col  justify-between h-[700px] w-[100%]  lg:w-[43%] items-center mt-20 lg:mt-0 lg:h-[700px] '>
          <Card  onMouseOver={()=> Sethover(imageDict["microphone"])} className='flex flex-col items-center transition duration-300 ease-in-out  hover:scale-110  min-w-[300px] h-fit-content ease-in-out w-[100%] lg:w-[60%] '>

@@ -18,11 +18,7 @@ const Navbar = () => {
     const [showModal, setShowModal] = React.useState(false);
     const [modal,setModal]=useState("")
     const [status,setStatus] = useState(false)
-    const navigate = useNavigate();
-    const navigateTo = ()=>{
-      Setnavbar(!navbar)
-      
-    }
+   
   const formHandle=(e)=>{
     e.preventDefault()
     
@@ -83,7 +79,7 @@ const Navbar = () => {
         <div className='navbar py-10   w-full bg-[#2d363e] text-white h-[120px] lg:h-[100px] flex items-center  '>
             <div className=' w-[80%] mx-auto flex justify-between items-center'>
                 <div className='logo'>
-                    <img alt="image" className='w-[150px] h-[50px] object-cover    ' src='https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=2000'></img>
+                    <img alt="service" className='w-[150px] h-[50px] object-cover    ' src='https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=2000'></img>
                     
                 </div>
                 
@@ -151,7 +147,7 @@ const Navbar = () => {
                    >
                      <IoMdClose className='text-white'/>
                    </button>
-                   <img src='https://fixzonecypress.com/static/images/status_form_top.png' className='w-[142px] h-[74px] mt-10 mx-auto'/>
+                   <img alt='service' src='https://fixzonecypress.com/static/images/status_form_top.png' className='w-[142px] h-[74px] mt-10 mx-auto'/>
                    <h3 className='text-[22px] text-center font-bold mt-5'>Check your repair status</h3>
                    <p className='text-[#666666] text-center mt-5'>Checking the status of your repair is quick and easy at FixZone Phone Repair! Simply complete the form below to see the status of your device.</p>
                      <form  onSubmit={formHandle} className='mt-10'>

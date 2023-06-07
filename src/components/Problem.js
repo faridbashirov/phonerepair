@@ -63,7 +63,7 @@ const problems=[
 const Problem = () => {
 
  const [problem,setProblems] = useState(problems)
- const [phone,setPhone] = useState(phones)
+ const phone=phones
  const [solution,setSolution] = useState({solution:"Solution",name:"Solution"})
 
 
