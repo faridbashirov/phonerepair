@@ -78,29 +78,29 @@ const Problem = () => {
   
   return (
     <div>
-    <div className='grid w-[96%] mx-auto grid-cols-12 gap-5 lg:w-[96%] lg:h-[500px] mb-20 lg:mb-0'>
+    <div className='grid w-[96%] mx-auto grid-cols-12 gap-5 lg:w-[80%] lg:h-[500px] mb-20 lg:mb-0 problems'>
 
-        <div className='h-[400px] py-10 col-span-12 lg:col-span-3 '>
-            <p className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>Select your device</p>
+        <div className='h-[400px] py-4 col-span-12 lg:col-span-3 problem'>
+            <h3 className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>Select your device</h3>
           <ul className='text-start px-2'>
             {phone.map((item,index)=>{
-               return   <li onClick={()=>handleProblem(item.id)} className='mb-3 text-lg hover:text-[#f2480c] '>{item.name}</li>
+               return   <li onClick={()=>handleProblem(item.id)} className='mb-2 text-lg hover:text-[#f2480c] '>{item.name}</li>
             })}
            
          
           </ul>
         </div>
-        <div className='h-[400px]  py-10  col-span-12 lg:col-span-3 '>
-        <p className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>Select your problem</p>
+        <div className='h-[400px]  py-4  col-span-12 lg:col-span-3 problem'>
+        <h3 className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>Select your problem</h3>
         <ul className='text-start px-2'>
         {problem.map((item,index)=>{
-               return   <li onClick={()=>handleSolution(item.id)} className='mb-3 text-lg hover:text-[#f2480c] '>{item.name}</li>
+               return   <li onClick={()=>handleSolution(item.id)} className='mb-2 text-lg hover:text-[#f2480c] '>{item.name}</li>
             })}
           
           </ul>
         </div>
-        <div className='h-[400px]  py-10  col-span-12 lg:col-span-6  '>
-        <p className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>{solution.name}</p>
+        <div className='h-[400px]  py-4 col-span-12 lg:col-span-6  problem'>
+        <h3 className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>{solution.name}</h3>
         <p className='text-start '>{solution.solution}</p>
     
         <div class="flex flex-col overflow-x-hidden">

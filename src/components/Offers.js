@@ -3,9 +3,9 @@ import { useState } from 'react';
 import {VscTools} from "react-icons/vsc"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import {  CardActionArea, CardActions } from '@mui/material';
 import './Offers.css'
 
 const imageDict={
@@ -28,7 +28,7 @@ const Offers = () => {
   }
 
   return (
-    <div className='h-auto lg:h-[1000px] bg-[#22282e] w-full py-20 lg:py-0'>
+    <div className='h-auto lg:h-[1000px] bg-[#22282e] w-full py-20 lg:py-0 offers'>
         <div className='flex flex-col  items-center  py-16'>
            <VscTools className=' text-5xl text-[#f2480c] '/>
            <h2 className='text-[#fff] uppercase lg:text-[44px] my-2 text-[32px] offer'>Featured Offers</h2>

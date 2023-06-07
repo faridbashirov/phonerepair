@@ -3,22 +3,29 @@ import {BiPhoneCall} from 'react-icons/bi'
 import {BsEnvelope} from 'react-icons/bs'
 import axios from 'axios'
 import {AiOutlineClockCircle} from 'react-icons/ai'
+import {toast, ToastContainer } from "react-toastify";
 import '../components/contact.css'
 
 const Contact = () => {
    const [error,setError]=useState(false)
    const [errors,setErrors]=useState([])
    
-   
+   const displayLoginNotification = () => {
+    toast.success(" Successful");
+  };
     const contactform=(e)=>{
         e.preventDefault();
         setError(false)
         console.log(e.target.name.value)
-        axios.post("http://127.0.0.1:8000/api/contact/",{
+        axios.post("https://api.phonerepairweb.com/api/contact/",{
             name:e.target.name.value,
             email:e.target.email.value,
             message:e.target.message.value
+        })  
+        .then((response)=>{
+            displayLoginNotification()
         })
+    
         
         .catch((err)=>{
              console.log(err.response.data)
@@ -38,7 +45,19 @@ const Contact = () => {
 
   return (
     <div className='w-full'>
-        <div className='w-full md:w-[96%] mx-auto flex py-20 lg:px-10 px-3 justify-between flex-col lg:flex-row'>
+        <div className='w-[96%] lg:w-[80%]  mx-auto flex py-20 lg:px-10 px-3 justify-between flex-col lg:flex-row'>
+        <ToastContainer
+        position='top-right'
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme='light'
+      />
             <div className='w-full lg:w-[45%] text-start '>
                  <h2 className='text-[32px] lg:text-[44px] font-semibold mb-5 footer-header'>Customer Support</h2>
                  <p className='text-md'>Have a question?Need some help?Get in touch with us.</p>

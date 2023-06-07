@@ -8,7 +8,7 @@ import {IoMdClose} from "react-icons/io"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {BsFacebook} from "react-icons/bs"
 import {FiPhoneCall} from "react-icons/fi"
-import { FacebookShareButton } from 'react-share';
+
 import Footer from './Footer'
 import './navbar.css'
 
@@ -19,13 +19,16 @@ const Navbar = () => {
     const [modal,setModal]=useState("")
     const [status,setStatus] = useState(false)
     const navigate = useNavigate();
-
+    const navigateTo = ()=>{
+      Setnavbar(!navbar)
+      
+    }
   const formHandle=(e)=>{
     e.preventDefault()
     
     const  ticket= e.target.ticket.value
     console.log(ticket)
-    axios.get(`http://127.0.0.1:8000/api/client/${ticket}/`)
+    axios.get(`https://api.phonerepairweb.com/api/client/${ticket}/`)
     .then(res=>{
       console.log(res.data)
       setStatus(true)
@@ -55,30 +58,30 @@ const Navbar = () => {
   return (
     <div>
         <div className=' py-10 w-full h-[40px]  bg-[#22282e] hidden lg:block  text-white '>
-        <div className='topheader w-[95%] h-full mx-auto justify-between hidden items-center lg:flex '>
+        <div className='topheader w-[80%] h-full mx-auto justify-between hidden items-center lg:flex '>
             <div className='leftside'>
                 <ul>
-                <li className='call-number'> <Link className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2'>12312321312</span> </Link></li>
+                <li className='call-number'> <Link className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2 text-[20px]'>12312321312</span> </Link></li>
                 
                 </ul>
             </div>
             <div className='rightside items-center flex w-[100%] sm:w-[100%] md:w-[50%] lg:w-[55%] xl:w-[43%] xxl:w-[25%] justify-between '> 
                 
                 <ul className='flex   justify-between items-center'>
-                <span>Follow us</span>
-                    <li className='mx-4'><Link to="" className='hover:text-[#f2480c] social'><AiOutlineInstagram/> </Link></li>
+                <span className='text-[14px] text-[#abafb2]'>Follow us</span>
+                    <li className='mx-4'><Link to="" className='text-[#abafb2] hover:text-[#f2480c] social'><AiOutlineInstagram/> </Link></li>
                 
-                    <li><Link to="" className='hover:text-[#f2480c] social'> <BsFacebook/> </Link></li>
+                    <li><Link to="" className='text-[#abafb2] hover:text-[#f2480c] social'> <BsFacebook/> </Link></li>
                   </ul>
-                  <Link to="estimate">  <button  className='bg-white text-black px-10 py-2 border-0 rounded-full hover:bg-[#f2480c] hover:text-white  btn-repair  '>Free estimate</button></Link>
-                <button onClick={() => setShowModal(true)} className='bg-white text-black px-10 py-2 border-0 rounded-full hover:bg-[#f2480c] hover:text-white  btn-estimate '> Repair status</button>
+                  <Link to="estimate">  <button  className='bg-white text-black px-6 py-2 border-0 text-[14px] rounded-full hover:bg-[#f2480c] hover:text-white  btn-repair  '>Free estimate</button></Link>
+                <button onClick={() => setShowModal(true)} className='bg-white text-black px-6 text-[14px] py-2 border-0 rounded-full hover:bg-[#f2480c] hover:text-white  btn-estimate '> Repair status</button>
             </div>
 
         </div>
         </div>
 
         <div className='navbar py-10   w-full bg-[#2d363e] text-white h-[120px] lg:h-[100px] flex items-center  '>
-            <div className=' w-[95%] mx-auto flex justify-between items-center'>
+            <div className=' w-[80%] mx-auto flex justify-between items-center'>
                 <div className='logo'>
                     <img className='w-[150px] h-[50px] object-cover    ' src='https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=2000'></img>
                     
@@ -105,13 +108,13 @@ const Navbar = () => {
                 { navbar &&  <div className='fixed w-full bottom-0 left-0 top-0 right-0 z-[100]  h-screen  bg-[#00000070]'>
                  <div className='mobilenavbar     h-screen  w-[100%] lg:w-[30%] z-[100] fixed right-0 bg-[#2d363e] bottom-0 text-white  ' >
                     <ul className='flex flex-col items-center lg:items-start   py-2 pl-2 pt-10 w-[100%] pt-20 '>
-                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5' > Home</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> About </li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Services</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Sell</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Buy</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Blogs</li>
-                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> Contact</li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5' ><Link to="/"  onClick={()=> Setnavbar(!navbar)}>Home</Link> </li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'><Link to="about" onClick={()=> Setnavbar(!navbar)}>About</Link>  </li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> <Link to="services" onClick={()=> Setnavbar(!navbar)}>Services</Link> </li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'><Link to="sell" onClick={()=> Setnavbar(!navbar)}>Sell</Link></li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> <Link to="buy" onClick={()=> Setnavbar(!navbar)}>Buy</Link></li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> <Link to="blog" onClick={()=> Setnavbar(!navbar)}>Blogs</Link></li>
+                    <li className='border-b-[1px] w-[100%] lg:text-start text-lg py-5'> <Link to="contact" onClick={()=> Setnavbar(!navbar)}>Contact</Link> </li>
                         
                     </ul>
 

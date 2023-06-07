@@ -6,7 +6,7 @@ const Slider = () => {
   return (
     <div className=' slider relative h-[400px] w-full flex items-center justify-center bg-white lg:h-[700px] lg:py-0 lg:px-0 '>
       <div className='w-full absolute h-[100%] slider-overlay py-20 px-10'>
-        <div className='w-full mx-auto flex flex-col items-start justify-between lg:flex-row lg:w-[96%]  '>
+        <div className='w-full mx-auto flex flex-col items-start justify-between lg:flex-row lg:w-[85%]  '>
             <div className='w-[100%] flex flex-col items-start  lg:w-[55%]'>
 
                 <div className='homeheader w-full flex items-start justify-between  '>
@@ -20,7 +20,7 @@ const Slider = () => {
                   
                 </div>
                 <p className='mt-10 text-lg text-center lg:text-start text-white hidden md:block'>laptops sksksksk dpdpdp sjsjs spsps sjssjjs sjsjsj sjsjs laptops sksksksk dpdpdp sjsjs spsps sjssjjs sjsjsj sjsjs</p>
-                <button className='border-0 bg-[#f2480c] mt-10 text-white px-5 lg:px-20 py-3  uppercase mx-auto lg:mx-0  '><Link>let fix your device </Link></button>
+                <button className='border-0 bg-[#f2480c] mt-10 text-white button-fix  uppercase mx-auto lg:mx-0  '><Link>let fix your device </Link></button>
 
             </div>
 

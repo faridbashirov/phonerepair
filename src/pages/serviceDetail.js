@@ -3,12 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect,useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { VscTools } from "react-icons/vsc"
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+
 
 const ServiceDetail = () => {
      const [service,setService]=useState([])
@@ -18,7 +13,7 @@ const ServiceDetail = () => {
     const {slug}=useParams();
     console.log(slug)
     useEffect(() => {
-        axios.get(`http://127.0.0.1:8000/api/service/${slug}/`)
+        axios.get(`https://api.phonerepairweb.com/api/service/${slug}/`)
         .then(res=>{
             setService(res.data)
            
@@ -28,7 +23,7 @@ const ServiceDetail = () => {
             })
         }, [slug]);
     useEffect(() => {
-        axios.get(`http://127.0.0.1:8000/api/service/`)
+        axios.get(`https://api.phonerepairweb.com/api/service/`)
         .then(res=>{
             setServices(res.data)
            
@@ -43,7 +38,7 @@ const ServiceDetail = () => {
 
   return (
     
-        <div className=' pb-20 w-[96%] mx-auto'>
+        <div className=' pb-20 w-[96%] lg:w-[80%]  mx-auto'>
             <div className='w-full flex lg:flex-row flex-col justify-between mt-10'>
                 <div className='flex flex-col w-[full]  lg:w-[67%]  items-center'>
 

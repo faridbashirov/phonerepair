@@ -1,8 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
-import { BiPhoneCall } from 'react-icons/bi'
-import { BsEnvelope } from 'react-icons/bs'
-import { AiOutlineClockCircle } from 'react-icons/ai'
+
 import {toast, ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
@@ -26,7 +24,7 @@ const Estimate = () => {
 const contactform=(e)=>{
         e.preventDefault();
         setError(false)
-        axios.post("http://127.0.0.1:8000/api/estimate/",{
+        axios.post("https://api.phonerepairweb.com/api/estimate/",{
             first_name:e.target.first_name.value,
             last_name:e.target.last_name.value,
             message:e.target.message.value,
@@ -56,7 +54,7 @@ const contactform=(e)=>{
     const {first_name,email,message,device_type,repair_type,last_name,phone}=errors
     console.log(first_name,email,message)
     useEffect(() => {
-     axios.get('http://127.0.0.1:8000/api/device/')
+     axios.get('https://api.phonerepairweb.com/api/device/')
      .then((response) =>{
         setDevice(response.data)
 
@@ -68,7 +66,7 @@ const contactform=(e)=>{
     },[])
 
     const handleForm = (filter) => {
-        axios.get(`http://127.0.0.1:8000/api/repair/?device__name=${filter}`)
+        axios.get(`https://api.phonerepairweb.com/api/repair/?device__name=${filter}`)
         .then((response) =>{
             setRepair(response.data)
             setStatus(true)
@@ -82,7 +80,7 @@ const contactform=(e)=>{
 
     return (
         <div className='w-full estimate-page rounded-[10px]'>
-            <div className='w-full  mx-auto flex py-20 px-3 justify-end flex-col lg:flex-row'>
+            <div className='w-[96%] lg:w-[80%]  mx-auto flex py-20 px-3 justify-end flex-col lg:flex-row'>
 
                 <div className='w-full lg:w-[50%] mt-15 lg:mt-0 py-5 px-15 h-[auto] shadow-lg py-10 lg:px-10 px-4 bg-white'>
                     <h3 className='text-[32px] lg:text-[22px] font-bold mb-5'>Select Your Device to Repair at Cell Phone Repair</h3>

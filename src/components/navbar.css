@@ -1,9 +1,9 @@
 *{
- font-family: 'Raleway', sans-serif;
+ font-family: 'Open Sans', sans-serif;
 }
 .navbar ul li a{
- font-family: 'Raleway', sans-serif;
-    font-size: 16px !important;
+ font-family: 'Open Sans', sans-serif;
+    font-size: 14px !important;
     transition: all .4s ease-in-out;
     text-transform: uppercase;
     font-weight: 600;

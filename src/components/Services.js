@@ -6,7 +6,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import {  CardActionArea, CardActions } from '@mui/material';
 import './Services.css'
 const Services = () => {
 
@@ -16,7 +16,7 @@ const Services = () => {
 
 
 useEffect(()=>{
-  axios.get("http://127.0.0.1:8000/api/service/")
+  axios.get("https://api.phonerepairweb.com/api/service/")
   .then(res=>{
       setService(res.data.slice(0,4))
       console.log(res.data)
@@ -38,7 +38,7 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
      <div className='cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 my-10 lg:flex-row justify-start '>
       {service.map((item,index)=>{
         return   <Card  key={index} className='card w-[96%] sm:w-[47%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
-        <CardActionArea>
+        <CardActionArea onClick={()=> navigate(`/service/${item.slug}`)} >
           <CardMedia
             component="img"
             height="140"

@@ -1,13 +1,9 @@
 import React,{useState,useEffect} from 'react'
-import { VscTools } from "react-icons/vsc"
+
 import { useParams } from 'react-router-dom';
 import axios from 'axios'
 
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+
 import '../components/Blog-page.css'
 
 
@@ -16,7 +12,7 @@ const BlogDetail = () => {
     const {slug}=useParams()
 
     useEffect(() => {
-        axios.get(`http://127.0.0.1:8000/api/blog/${slug}/`)
+        axios.get(`https://api.phonerepairweb.com/api/blog/${slug}/`)
         .then(res=>{
             setBlog(res.data)
            
@@ -27,7 +23,7 @@ const BlogDetail = () => {
         }, []);
 
     return (
-        <div className=' pb-20 w-[96%] mx-auto'>
+        <div className=' pb-20 w-[96%] lg:w-[80%]  mx-auto'>
             <div className='w-[90%] mx-auto flex lg:flex-row flex-col justify-between mt-10'>
                 <div className='flex flex-col w-[full]   lg:w-full  items-center'>
 

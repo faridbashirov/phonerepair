@@ -4,7 +4,7 @@ import '../components/About.css'
 const about = () => {
   return (
     <div className='w-full about-section '>
-        <div className='w-[96%] mx-auto flex py-20 flex-col lg:flex-row justify-between items-center'>
+        <div className='w-[96%] lg:w-[80%] mx-auto flex py-20 flex-col lg:flex-row justify-between items-center'>
          <div className='w-full lg:w-[45%] text-start'>
             <h2 className='text-5xl mb-10 footer-header'>Who We Are</h2>
             <p>

@@ -53,3 +53,6 @@ button{
   transform: translateY(-10px);
 
 }
+.button-fix{
+  padding: 15px 30px;
+}

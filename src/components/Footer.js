@@ -1,9 +1,8 @@
 import React from 'react'
-import {AiOutlineHome,AiFillPhone,AiOutlineClockCircle,AiOutlineTwitter,AiOutlineGooglePlus} from 'react-icons/ai'
-import {ImFacebook} from 'react-icons/im'
+
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
-import {TfiYoutube} from 'react-icons/tfi'
+
 import {HiLocationMarker} from 'react-icons/hi'
 import './Footer.css'
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
 
 
 <footer aria-label="Site Footer" class="footer">
-  <div class="mx-auto  px-4 py-10 lg:w-[96%]">
+  <div class="mx-auto  px-4 py-10 lg:w-[80%]">
     <div className='w-full flex flex-col lg:flex-row justify-between mb-10'>
   <div className='w-full lg:w-[40%]'>
             <h2 class="text-2xl font-bold text-white">
