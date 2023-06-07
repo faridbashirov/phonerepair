@@ -7,7 +7,7 @@ import Faq from '../components/Faq'
 import After from '../components/After'
 import Blogs from '../components/Blogs'
 import Carousels from '../components/Carousel'
-import Footer from '../components/Footer'
+
 const Home = () => {
   return (
     <div>

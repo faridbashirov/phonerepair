@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import axios from 'axios'
-import { useNavigate } from 'react-router-dom'
+
 import {GiHamburgerMenu} from "react-icons/gi"
 import {IoMdClose} from "react-icons/io"
 import {AiOutlineInstagram} from "react-icons/ai"

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactCompareImage from "react-compare-image";
 import {VscTools} from "react-icons/vsc"
 import './After.css'

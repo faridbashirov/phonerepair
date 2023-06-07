@@ -20,7 +20,7 @@ const BlogDetail = () => {
         .catch(err=>{
               console.log(err)
             })
-        }, []);
+        }, [slug]);
 
     return (
         <div className=' pb-20 w-[96%] lg:w-[80%]  mx-auto'>
