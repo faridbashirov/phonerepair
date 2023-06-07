@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 
@@ -55,37 +55,37 @@ const Footer = () => {
         
 
         <div class="col-span-3 sm:col-span-1">
-          <img className='w-[163px] h-[44px] mx-auto lg:mx-0' src='https://fixzonecypress.com/static/images/logo_white.png' />
+          <img className='w-[163px] h-[44px] mx-auto lg:mx-0' alt='image' src='https://fixzonecypress.com/static/images/logo_white.png' />
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
             <ul class="space-y-4 text-sm text-start">
             <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
                   Phone repair
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c]">
+                <Link to="#" class="text-white transition hover:text-[#f2480c]">
                   Phone repair
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c]">
-                  Phone repair
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
                   Phone repair
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
                   Phone repair
-                </a>
+                </Link>
+              </li>
+
+              <li>
+                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
+                  Phone repair
+                </Link>
               </li>
             </ul>
           </nav>
@@ -97,31 +97,31 @@ const Footer = () => {
           <nav aria-label="Footer Navigation - Company" class="mt-6">
             <ul class="space-y-4 text-sm text-start">
               <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
                   Phone repair
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -134,31 +134,31 @@ const Footer = () => {
           <nav aria-label="Footer Navigation - Company" class="mt-6">
             <ul class="space-y-4 text-sm text-start">
               <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c]">
+                <Link to="#" class="text-white transition hover:text-[#f2480c]">
                   Phone repair
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="text-white transition  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  hover:text-[#f2480c]">
                 Phone repair
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -170,24 +170,24 @@ const Footer = () => {
             <ul class="space-y-6 text-sm text-start">
               <li>
                 
-                <a href="#" class="text-white transition hover:text-[#f2480c] d-flex w-full lg:w-[unset] items-center">
+                <Link to="#"  class="text-white transition hover:text-[#f2480c] d-flex w-full lg:w-[unset] items-center">
                 <BsFillTelephoneFill className='mr-2'/>
                  0400404040
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition hover:text-[#f2480c] d-flex  w-full lg:w-[unset]  items-center">
+                <Link to="#"  class="text-white transition hover:text-[#f2480c] d-flex  w-full lg:w-[unset]  items-center">
                   <MdEmail  className='mr-2'/>
                example@gmail.com
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" class="text-white transition  w-full lg:w-[unset]  hover:text-[#f2480c]">
+                <Link to="#"  class="text-white transition  w-full lg:w-[unset]  hover:text-[#f2480c]">
                   <HiLocationMarker  className='mr-2'/>
                 Baku,Azerbaijan
-                </a>
+                </Link>
               </li>
             
             </ul>

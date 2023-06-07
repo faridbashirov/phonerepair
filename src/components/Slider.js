@@ -26,7 +26,7 @@ const Slider = () => {
 
             <div className='w-[100%] hidden lg:block lg:w-[42%] mt-10 slider-img '> 
 
-                <img className='w-full h-[400px] object-cover' src="https://www.pngall.com/wp-content/uploads/2016/05/Laptop-PNG.png"/>
+                <img alt='image' className='w-full h-[400px] object-cover' src="https://www.pngall.com/wp-content/uploads/2016/05/Laptop-PNG.png"/>
             </div>
 
         </div>

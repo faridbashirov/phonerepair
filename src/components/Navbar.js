@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className='topheader w-[80%] h-full mx-auto justify-between hidden items-center lg:flex '>
             <div className='leftside'>
                 <ul>
-                <li className='call-number'> <Link className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2 text-[20px]'>12312321312</span> </Link></li>
+                <li className='call-number'> <Link to="" className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2 text-[20px]'>12312321312</span> </Link></li>
                 
                 </ul>
             </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <span className='text-[14px] text-[#abafb2]'>Follow us</span>
                     <li className='mx-4'><Link to="" className='text-[#abafb2] hover:text-[#f2480c] social'><AiOutlineInstagram/> </Link></li>
                 
-                    <li><Link to="" className='text-[#abafb2] hover:text-[#f2480c] social'> <BsFacebook/> </Link></li>
+                    <li><Link to="#" className='text-[#abafb2] hover:text-[#f2480c] social'> <BsFacebook/> </Link></li>
                   </ul>
                   <Link to="estimate">  <button  className='bg-white text-black px-6 py-2 border-0 text-[14px] rounded-full hover:bg-[#f2480c] hover:text-white  btn-repair  '>Free estimate</button></Link>
                 <button onClick={() => setShowModal(true)} className='bg-white text-black px-6 text-[14px] py-2 border-0 rounded-full hover:bg-[#f2480c] hover:text-white  btn-estimate '> Repair status</button>
@@ -83,7 +83,7 @@ const Navbar = () => {
         <div className='navbar py-10   w-full bg-[#2d363e] text-white h-[120px] lg:h-[100px] flex items-center  '>
             <div className=' w-[80%] mx-auto flex justify-between items-center'>
                 <div className='logo'>
-                    <img className='w-[150px] h-[50px] object-cover    ' src='https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=2000'></img>
+                    <img alt="image" className='w-[150px] h-[50px] object-cover    ' src='https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=2000'></img>
                     
                 </div>
                 
