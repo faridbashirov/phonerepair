@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/Sell.css'
-
+import { Link } from 'react-router-dom'
 const sell = () => {
   return (
     <div className='w-full sell-section '>
@@ -16,7 +16,7 @@ const sell = () => {
         As a customer-centric business, we understand the importance of keeping your gadgets in optimal condition. We take pride in offering reliable and swift repair services that help you stay connected in today's fast-paced world. Our team of industry-leading technicians is skilled and committed to ensuring that every repair is performed to the highest standards.
         Choose Us for all your mobile phone repair needs and experience the difference that comes with working with the best in the industry. Our commitment to quality, efficiency, and customer satisfaction sets us apart. Give your devices the care they deserve, and let our experts bring them back to life.
         </p>
-        <a href='' className='btn-call uppercase font-semibold px-10 py-5 mt-20'>Call 04004400404</a>
+        <Link to="#" className='btn-call uppercase font-semibold px-10 py-5 mt-20'>Call 04004400404</Link>
      </div>
      
 
