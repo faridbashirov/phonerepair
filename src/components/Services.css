@@ -18,3 +18,8 @@ button{
 .css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root{
     background: none !important;
 }
+.service-cards .card{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
