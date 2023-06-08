@@ -33,9 +33,11 @@ const After = () => {
            <div className="flex flex-col  items-start my-10">
             <h5>Use Only Genuine Parts</h5>
             <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
-            <h5>Use Only Genuine Parts</h5>
+            <h5>Leaders in the Repair Industry</h5>
             <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
-            <h5>Use Only Genuine Parts</h5>
+            <h5>Offer 6 Months Repair Warrenty</h5>
+            <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
+            <h5>Experienced Specialists at Work</h5>
             <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
             </div>
             </div>

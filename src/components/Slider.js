@@ -19,7 +19,8 @@ const Slider = () => {
 
                   
                 </div>
-                <p className='mt-10 text-lg text-center lg:text-start text-white hidden md:block'>laptops sksksksk dpdpdp sjsjs spsps sjssjjs sjsjsj sjsjs laptops sksksksk dpdpdp sjsjs spsps sjssjjs sjsjsj sjsjs</p>
+                <p className='mt-10 text-lg text-center lg:text-start text-white hidden md:block'>From Smartphones to Tablets to Laptops, we fix it all! We are your one-stop-shop for repairs and accessories.
+                </p>
                 <button className='border-0 bg-[#f2480c] mt-10 text-white button-fix  uppercase mx-auto lg:mx-0  '><Link>let fix your device </Link></button>
 
             </div>

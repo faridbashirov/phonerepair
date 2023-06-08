@@ -11,6 +11,7 @@ import {FiPhoneCall} from "react-icons/fi"
 
 import Footer from './Footer'
 import './navbar.css'
+import logo from '../images/logo.png'
 
 const Navbar = () => {
 
@@ -79,7 +80,7 @@ const Navbar = () => {
         <div className='navbar py-10   w-full bg-[#2d363e] text-white h-[120px] lg:h-[100px] flex items-center  '>
             <div className=' w-[80%] mx-auto flex justify-between items-center'>
                 <div className='logo'>
-                    <img alt="service" className='w-[150px] h-[50px] object-cover    ' src='https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=2000'></img>
+                    <img alt="service" className='w-[150px] h-[50px] object-cover    ' src={logo}></img>
                     
                 </div>
                 

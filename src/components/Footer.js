@@ -5,6 +5,7 @@ import {MdEmail} from 'react-icons/md'
 
 import {HiLocationMarker} from 'react-icons/hi'
 import './Footer.css'
+import logo from '../images/logo.png'
 const Footer = () => {
   return (
     <div className='w-full h-[500px] bg-[#22282e] text-white'>
@@ -55,7 +56,7 @@ const Footer = () => {
         
 
         <div class="col-span-3 sm:col-span-1">
-          <img className='w-[163px] h-[44px] mx-auto lg:mx-0' alt='service' src='https://fixzonecypress.com/static/images/logo_white.png' />
+          <img className='w-[180px] h-[62px] mx-auto lg:mx-0' alt='service' src={logo} />
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
             <ul class="space-y-4 text-sm text-start">
@@ -76,11 +77,7 @@ const Footer = () => {
                 </Link>
               </li>
 
-              <li>
-                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
-                  Phone repair
-                </Link>
-              </li>
+             
 
               <li>
                 <Link to="#"  class="text-white transition hover:text-[#f2480c]">
