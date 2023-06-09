@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import ReactHpartmlParser from 'react-html-parser'; 
+import sanitize from "sanitize-html";
 import { useParams } from 'react-router-dom';
 import axios from 'axios'
 
@@ -11,7 +11,7 @@ const BlogDetail = () => {
     const [blog,setBlog]=useState([])
     const {slug}=useParams()
 
-    
+
     
     
     
@@ -29,7 +29,7 @@ const BlogDetail = () => {
               console.log(err)
             })
         }, [slug]);
-
+        const sanitized = sanitize(blog.description);
     return (
         <div className=' pb-20 w-[96%] lg:w-[80%]  mx-auto'>
             <div className='w-[90%] mx-auto flex lg:flex-row flex-col justify-between mt-10'>
@@ -40,7 +40,7 @@ const BlogDetail = () => {
                         <img alt='service' className='w-full h-[250px] lg:h-[500px] mb-5' src={blog.image}/>
                         <h2 className='lg:text-[34px] text-[24px] text-start font-semibold mb-5'>{blog.title}</h2>
                         <p className='w-[96%] text-start'>
-                        {ReactHpartmlParser (blog.description)}
+                        <span dangerouslySetInnerHTML={{ __html: sanitized }}/>
                        
                             
                         </p>
