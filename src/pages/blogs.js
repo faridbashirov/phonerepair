@@ -28,19 +28,19 @@ useEffect(()=>{
 
 },[])
   return (
-    <div className=' py-20 w-[96%] lg:w-[80%] mx-auto'>
+    <div className=' py-20 w-[96%] lg:w-[96%] mx-auto'>
        <VscTools className='text-5xl  text-[#f2480c]'/>
 
 <h2 className='lg:text-[44px] text-[32px] font-semibold'>Get started with your device repair</h2>
 <p className='mt-5 w-[full] sub-text'> Dolor sit amet consectetur elit eiusmod tempor dunt aliqua utas enim veniam tempore quis sed ipsum nostrud ipsum lorem
 amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliquat.</p>
 <div className='w-full flex lg:flex-row flex-col justify-between mt-20'>
-         <div className='flex flex-col w-[full]  lg:w-[70%]  items-center'>
+         <div className='flex flex-col w-[full]    items-center'>
    
 
    <div className='cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 lg:flex-row '>
     { blog.map((item,index)=>{
-      return  <Card key={index}  className='card w-[96%] sm:w-[47%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[520px] xl:h-[500px]  2xl:h-[680px]  flex flex-col items-center mb-15'>
+      return  <Card key={index}  className='card w-[96%] sm:w-[47%] pb-5 lg:w-[31%]  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[520px] xl:h-[500px]  2xl:h-[680px]  flex flex-col items-center mb-15'>
       <CardActionArea onClick={()=> navigate(`/blog/${item.slug}`)}>
         <CardMedia
           component="img"

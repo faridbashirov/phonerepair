@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-
+import ReactHpartmlParser from 'react-html-parser'; 
 import { useParams } from 'react-router-dom';
 import axios from 'axios'
 
@@ -10,6 +10,14 @@ import '../components/Blog-page.css'
 const BlogDetail = () => {
     const [blog,setBlog]=useState([])
     const {slug}=useParams()
+
+    
+    
+    
+    
+
+    
+
 
     useEffect(() => {
         axios.get(`https://api.phonerepairweb.com/api/blog/${slug}/`)
@@ -29,10 +37,12 @@ const BlogDetail = () => {
 
 
                     <div className='blog-detail flex flex-col w-full  shadow-lg-1000 '>
-                        <img alt='service' className='w-full h-[250px] lg:h-[500px] mb-5' src='https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80' />
+                        <img alt='service' className='w-full h-[250px] lg:h-[500px] mb-5' src={blog.image}/>
                         <h2 className='lg:text-[34px] text-[24px] text-start font-semibold mb-5'>{blog.title}</h2>
                         <p className='w-[96%] text-start'>
-                            {blog.description}
+                        {ReactHpartmlParser (blog.description)}
+                       
+                            
                         </p>
 
 
