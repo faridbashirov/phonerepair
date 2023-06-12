@@ -265,15 +265,31 @@ const phonesproblems = {
     },
   ]
   const problems = [{
-    name: "battery replacement",
-    id: 1,
+    name: "Broken display",
+    id: 4,
   },
   {
-    name: "charger replacement",
+    name: "Not working camera",
     id: 2,
   },
   {
-    name: "screen replacement",
+    name: "Sound problems",
+    id: 5,
+  },
+  {
+    name: "Battery replacement",
+    id: 1,
+  },
+  {
+    name: "Replacement camera",
+    id: 6,
+  },
+  {
+    name: "Charger replacement",
+    id: 7,
+  },
+  {
+    name: "Screen replacement",
     id: 3,
   }
 
