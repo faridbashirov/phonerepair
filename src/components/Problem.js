@@ -1,5 +1,7 @@
 import React from 'react'
-import { useState } from 'react'
+import {
+  useState
+} from 'react'
 import './Problem.css'
 const phoneproblems = {
   1: {
@@ -33,9 +35,6 @@ const phoneproblems = {
 
 
 }
-
-    
-    
 const phonesproblems = {
   1: [{
       name: "Broken display",
@@ -95,8 +94,7 @@ const phonesproblems = {
       id: 6,
     },
   ],
-  3: [
-    {
+  3: [{
       name: "Charger replacement",
       id: 7,
     },
@@ -112,7 +110,7 @@ const phonesproblems = {
       name: "Not working camera",
       id: 2,
     },
-    
+
     {
       name: "Sound problems",
       id: 5,
@@ -126,8 +124,7 @@ const phonesproblems = {
       id: 6,
     },
   ],
-  4: [
-    {
+  4: [{
       name: "Charger replacement",
       id: 7,
     },
@@ -156,8 +153,7 @@ const phonesproblems = {
       id: 6,
     },
   ],
-  5: [
-    {
+  5: [{
       name: "Screen replacement",
       id: 3,
     },
@@ -186,8 +182,7 @@ const phonesproblems = {
       id: 6,
     },
   ],
-  6: [
-    {
+  6: [{
       name: "Screen replacement",
       id: 3,
     },
@@ -216,8 +211,7 @@ const phonesproblems = {
       id: 4,
     },
   ],
-  7: [
-    {
+  7: [{
       name: "Charger replacement",
       id: 7,
     },
@@ -314,61 +308,80 @@ const phonesproblems = {
 
 const Problem = () => {
 
- const [problem,setProblems] = useState(problems)
- const phone=phones
- const [solution,setSolution] = useState({solution:"Solution",name:"Solution"})
+  const [problem, setProblems] = useState(problems)
+  const phone = phones
+  const [solution, setSolution] = useState({
+    solution: "Solution",
+    name: "Solution"
+  })
 
 
- const handleProblem= (filter)=>{
-  const newproblems=phonesproblems[filter]
-  setProblems(newproblems)
- }
- const handleSolution= (filter)=>{
-  const newproblems=phoneproblems[filter]
-  setSolution(newproblems)
- }
-  
-  return (
-    <div>
-    <div className='grid w-[96%] mx-auto grid-cols-12 gap-5 lg:w-[80%] lg:h-[500px] mb-20 lg:mb-0 problems'>
+  const handleProblem = (filter) => {
+    const newproblems = phonesproblems[filter]
+    setProblems(newproblems)
+  }
+  const handleSolution = (filter) => {
+    const newproblems = phoneproblems[filter]
+    setSolution(newproblems)
+  }
 
-        <div className='h-[400px] py-4 col-span-12 lg:col-span-3 problem'>
-            <h3 className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>Select your device</h3>
-          <ul className='text-start px-2'>
-            {phone.map((item,index)=>{
-               return   <li onClick={()=>handleProblem(item.id)} className='mb-2 text-lg hover:text-[#f2480c] '>{item.name}</li>
-            })}
-           
-         
-          </ul>
-        </div>
-        <div className='h-[400px]  py-4  col-span-12 lg:col-span-3 problem'>
-        <h3 className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>Select your problem</h3>
-        <ul className='text-start px-2'>
-        {problem.map((item,index)=>{
-               return   <li onClick={()=>handleSolution(item.id)} className='mb-2 text-lg hover:text-[#f2480c] '>{item.name}</li>
-            })}
-          
-          </ul>
-        </div>
-        <div className='h-[400px]  py-4 col-span-12 lg:col-span-6  problem'>
-        <h3 className='w-full py-5 mb-10  bg-[#22282e] text-white text-xl '>{solution.name}</h3>
-        <p className='text-start '>{solution.solution}</p>
-    
-        <div class="flex flex-col overflow-x-hidden">
-  <div class="sm:-mx-6 lg:-mx-8">
-    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-      <div class="overflow-x-auto">
-        
+  return ( <div>
+    <div className = 'grid w-[96%] mx-auto grid-cols-12 gap-5 lg:w-[80%] lg:h-[500px] mb-20 lg:mb-0 problems' >
+
+    <div className = 'h-[400px] py-4 col-span-12 lg:col-span-3 problem' >
+    <h3 className = 'w-full py-5 mb-10  bg-[#22282e] text-white text-xl ' > Select your device </h3>
+     <ul className = 'text-start px-2' > {
+      phone.map((item, index) => {
+        return <li onClick = {
+          () => handleProblem(item.id)
+        }
+        className = 'mb-2 text-lg hover:text-[#f2480c] ' > {
+          item.name
+        } </li>
+      })
+    }
+
+
+    </ul> </div> 
+    <div className = 'h-[400px]  py-4  col-span-12 lg:col-span-3 problem' >
+    <h3 className = 'w-full py-5 mb-10  bg-[#22282e] text-white text-xl ' > Select your problem </h3> 
+    <ul className = 'text-start px-2' > {
+      problem.map((item, index) => {
+        return <li onClick = {
+          () => handleSolution(item.id)
+        }
+        className = 'mb-2 text-lg hover:text-[#f2480c] ' > {
+          item.name
+        } </li>
+      })
+    }
+
+    </ul>
+     </div >
+      <div className = 'h-[400px]  py-4 col-span-12 lg:col-span-6  problem' >
+    <h3 className = 'w-full py-5 mb-10  bg-[#22282e] text-white text-xl ' > {
+      solution.name
+    } 
+    </h3> 
+    <p className = 'text-start ' > {
+      solution.solution
+    } </p>
+
+    <div class = "flex flex-col overflow-x-hidden" >
+    <div class = "sm:-mx-6 lg:-mx-8" >
+    < div class = "inline-block min-w-full py-2 sm:px-6 lg:px-8" >
+    <div class = "overflow-x-auto" >
+
+    </div> 
+    </div> 
+      </div> 
+      
       </div>
-    </div>
-  </div>
-</div>
-  
-          </div>
-
 
     </div>
+
+
+    </div> 
     </div>
   )
 }
