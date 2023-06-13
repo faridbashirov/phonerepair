@@ -339,7 +339,7 @@ const Problem = () => {
           setActive(item)}
           
         }
-        className = {`mb-2 text-lg hover:text-[#f2480c] ${active == item && 'active-problem'}`} > {
+        className = {`mb-2 text-lg hover:text-[#f2480c] ${active === item && 'active-problem'}`} > {
           item.name
         } </li>
       })
@@ -356,7 +356,7 @@ const Problem = () => {
             setActive1(item)
          }
         }
-        className = {`mb-2 text-lg hover:text-[#f2480c] ${active1 == item  && 'active-problem'}`}> {
+        className = {`mb-2 text-lg hover:text-[#f2480c] ${active1 === item  && 'active-problem'}`}> {
           item.name
         } </li>
       })
