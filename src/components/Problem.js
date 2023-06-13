@@ -307,7 +307,9 @@ const phonesproblems = {
 ]
 
 const Problem = () => {
-
+  const [active, setActive] = useState(null)
+  
+  const [active1, setActive1] = useState(null)
   const [problem, setProblems] = useState(problems)
   const phone = phones
   const [solution, setSolution] = useState({
@@ -333,9 +335,11 @@ const Problem = () => {
      <ul className = 'text-start px-2' > {
       phone.map((item, index) => {
         return <li onClick = {
-          () => handleProblem(item.id)
+          () => {handleProblem(item.id)
+          setActive(item)}
+          
         }
-        className = 'mb-2 text-lg hover:text-[#f2480c] ' > {
+        className = {`mb-2 text-lg hover:text-[#f2480c] ${active == item && 'active-problem'}`} > {
           item.name
         } </li>
       })
@@ -348,9 +352,11 @@ const Problem = () => {
     <ul className = 'text-start px-2' > {
       problem.map((item, index) => {
         return <li onClick = {
-          () => handleSolution(item.id)
+          () =>{ handleSolution(item.id)
+            setActive1(item)
+         }
         }
-        className = 'mb-2 text-lg hover:text-[#f2480c] ' > {
+        className = {`mb-2 text-lg hover:text-[#f2480c] ${active1 == item  && 'active-problem'}`}> {
           item.name
         } </li>
       })

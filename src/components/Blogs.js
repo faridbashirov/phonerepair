@@ -38,7 +38,7 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
    <div className='cards service-cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 my-10 lg:flex-row justify-between '>
     {blog.map((item,index)=>{
       return    <Card  className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
-      <CardActionArea onClick={()=> navigate(`/blog/${item.slug}`)}>
+      <CardActionArea onClick={()=> navigate(`/blog/${item.slug}`)} className='sm:h-[500px]'>
         <CardMedia
           component="img"
           height="140"
@@ -47,19 +47,20 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
           className=''
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5"  component="div" className='sm:h-[60px]'>
             {item.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" className='sm:h-[60px]'>
             {item.small_description}
           </Typography>
         </CardContent>
-      </CardActionArea>
+      
       <CardActions>
-      <button onClick={()=> navigate(`/blog/${item.slug}`)} size="small" color="primary" className='border-2 border-[#f2480c] hover:bg-[#f2480c] hover:text-white py-2 px-3'>
+      <button onClick={()=> navigate(`/blog/${item.slug}`)} size="small" color="primary" className='border-2 mx-auto border-[#f2480c] hover:bg-[#f2480c] hover:text-white py-2 px-3'>
           Read more
         </button>
       </CardActions>
+      </CardActionArea>
     </Card>
     })}
 

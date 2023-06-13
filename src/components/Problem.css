@@ -30,3 +30,6 @@ ul li:hover{
 .problem ul li{
     font-size: 14px !important;
 }
+.active-problem{
+    color: #f2480c;
+}
