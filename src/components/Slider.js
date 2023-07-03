@@ -14,12 +14,13 @@ const Slider = () => {
                   <VscTools className='text-[#f2480c] text-[60px] hidden lg:flex lg:text-[120px] '/>
                   </div>
                   <div className='w-[100%] lg:w-[95%]'>
-                  <span className=' w-full  text-gray-900 text-center lg:text-start capitalize text-white text-[32px] lg:text-[52px] ml-0 lg:leading-[60px] '>We repair all kinds of fonts & tablets</span>
+                  <span className=' w-full  text-gray-900 text-center lg:text-start capitalize text-white text-[32px] lg:text-[40px] ml-0 lg:leading-[60px] '>All Kinds of Phone and Tablet repairs in Auburn, AL</span>
                   </div>
 
                   
                 </div>
-                <p className='mt-10 text-lg text-center lg:text-start text-white hidden md:block'>From Smartphones to Tablets to Laptops, we fix it all! We are your one-stop-shop for repairs and accessories.
+                <p className='mt-10 text-lg text-center lg:text-start text-white hidden md:block'>From Smartphones to Tablets, we fix it all! We are your one-stop shop for repairs and accessories.
+
                 </p>
                 <button className='border-0 bg-[#f2480c] mt-10 text-white button-fix  uppercase mx-auto lg:mx-0  '><Link>let fix your device </Link></button>
 
