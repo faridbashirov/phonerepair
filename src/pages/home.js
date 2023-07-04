@@ -6,6 +6,7 @@ import Offers from '../components/Offers'
 import Faq from '../components/Faq'
 import After from '../components/After'
 import Blogs from '../components/Blogs'
+import Sell from '../components/Sellsection'
 import Carousels from '../components/Carousel'
 
 const Home = () => {
@@ -15,10 +16,11 @@ const Home = () => {
         <Problem/>
         <Services/>
         <Offers/>
-        <Faq/>
+        
         <After/>
         <Blogs/>
         <Carousels/>
+        <Sell/>
        
 
     </div>

@@ -56,3 +56,22 @@ button{
 .button-fix{
   padding: 15px 30px;
 }
+.modall::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.modall::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.modall::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.modall::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

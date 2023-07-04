@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
+import {AiOutlineInstagram} from "react-icons/ai"
+import {FaFacebookF} from "react-icons/fa"
+import {BsFacebook} from "react-icons/bs"
 
 import {HiLocationMarker} from 'react-icons/hi'
 import './Footer.css'
@@ -59,31 +62,20 @@ const Footer = () => {
           <img className='w-[180px] h-[62px] mx-auto lg:mx-0' alt='service' src={logo} />
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
-            <ul class="space-y-4 text-sm text-start">
+            <ul class=" text-sm text-start flex items-center justify-start">
             <li>
-                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
-                  Phone repair
+                <Link to="#"  class="text-white transition hover:text-[#f2480c] w-[40px] h-[40px] flex items-center justify-center rounded-full border-[1px] border-[#fff] hover:border-[#f2480c] ">
+                  <AiOutlineInstagram className='text-[18px]'/>
                 </Link>
               </li>
               <li>
-                <Link to="#" class="text-white transition hover:text-[#f2480c]">
-                  Phone repair
-                </Link>
-              </li>
-
-              <li>
-                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
-                  Phone repair
+                <Link to="#" class="text-white transition hover:text-[#f2480c] mx-3 w-[40px] h-[40px] flex items-center justify-center rounded-full border-[1px] border-[#fff] hover:border-[#f2480c] ">
+                 <FaFacebookF className='text-[18px]'/>
                 </Link>
               </li>
 
              
-
-              <li>
-                <Link to="#"  class="text-white transition hover:text-[#f2480c]">
-                  Phone repair
-                </Link>
-              </li>
+            
             </ul>
           </nav>
         </div>

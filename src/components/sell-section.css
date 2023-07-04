@@ -1,0 +1,6 @@
+.button1:hover .arrowww{
+    margin-left: 20px;
+}
+.button1{
+    transition: all .4s ease-in-out;
+}
