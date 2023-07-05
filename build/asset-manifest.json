@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d2cb669.css",
-    "main.js": "/static/js/main.f50bcc1d.js",
+    "main.css": "/static/css/main.496e6efa.css",
+    "main.js": "/static/js/main.2e196f36.js",
+    "static/media/motorola.jpeg": "/static/media/motorola.ddfd19ccf43834828fe0.jpeg",
     "static/media/logo.png": "/static/media/logo.f18e1b28d86722f0bd8a.png",
+    "static/media/apple.jpeg": "/static/media/apple.770916a6baba3b8d55a2.jpeg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/samsung.avif": "/static/media/samsung.764743933569f9a86e04.avif",
     "index.html": "/index.html",
     "static/media/index.cjs": "/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.3d2cb669.css.map": "/static/css/main.3d2cb669.css.map",
-    "main.f50bcc1d.js.map": "/static/js/main.f50bcc1d.js.map"
+    "main.496e6efa.css.map": "/static/css/main.496e6efa.css.map",
+    "main.2e196f36.js.map": "/static/js/main.2e196f36.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d2cb669.css",
-    "static/js/main.f50bcc1d.js"
+    "static/css/main.496e6efa.css",
+    "static/js/main.2e196f36.js"
   ]
 }
