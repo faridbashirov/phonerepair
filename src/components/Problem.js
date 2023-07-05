@@ -313,7 +313,7 @@ const Problem = () => {
   const [problem, setProblems] = useState(problems)
   const phone = phones
   const [solution, setSolution] = useState({
-    solution: "Solution",
+    solution: "At Phone Repair Auburn, we specialise in fixing broken displays. Our skilled technicians have extensive experience handling this cutting-edge device and are well-equipped to tackle display-related issues. Whether your iPhone has a cracked screen, unresponsive touch functionality, or any other display problem, we have the expertise to restore it to its pristine condition. We use high-quality replacement parts designed for the iPhone, ensuring seamless and precise repair. Trust us to deliver exceptional results and get your iPhone display looking and functioning like new again.",
     name: "Solution"
   })
 
@@ -328,9 +328,9 @@ const Problem = () => {
   }
 
   return ( <div>
-    <div className = 'grid w-[96%] mx-auto grid-cols-12 gap-5 lg:w-[80%] lg:h-[500px] mb-20 lg:mb-0 problems' >
+    <div className = 'grid w-[96%] mx-auto grid-cols-12 gap-5 lg:w-[80%] lg:h-[600px] xl:h-[500px] mb-20 lg:mb-0 problems' >
 
-    <div className = 'h-[400px] py-4 col-span-12 lg:col-span-3 problem' >
+    <div className = 'h-[400px] lg:h-[500px] xl:h-[400px]  py-4 col-span-12 lg:col-span-3 problem' >
     <h3 className = 'w-full py-5 mb-10  bg-[#22282e] text-white text-xl ' > Select your device </h3>
      <ul className = 'text-start px-2' > {
       phone.map((item, index) => {
@@ -347,7 +347,7 @@ const Problem = () => {
 
 
     </ul> </div> 
-    <div className = 'h-[400px]  py-4  col-span-12 lg:col-span-3 problem' >
+    <div className = 'h-[400px] lg:h-[500px] xl:h-[400px] py-4  col-span-12 lg:col-span-3 problem' >
     <h3 className = 'w-full py-5 mb-10  bg-[#22282e] text-white text-xl ' > Select your problem </h3> 
     <ul className = 'text-start px-2' > {
       problem.map((item, index) => {
@@ -364,7 +364,7 @@ const Problem = () => {
 
     </ul>
      </div >
-      <div className = 'h-[400px]  py-4 col-span-12 lg:col-span-6  problem' >
+      <div className = 'h-[400px] lg:h-[500px] xl:h-[400px] py-4 col-span-12 lg:col-span-6  problem' >
     <h3 className = 'w-full py-5 mb-10  bg-[#22282e] text-white text-xl ' > {
       solution.name
     } 

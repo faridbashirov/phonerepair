@@ -28,7 +28,7 @@ useEffect(()=>{
 
 },[])
   return (
-    <div className='flex flex-col w-[96%] lg:w-[90%] mx-auto items-center'>
+    <div className='flex flex-col w-[96%] lg:w-[90%] py-[5em] mx-auto items-center'>
     <VscTools className='text-5xl  text-[#f2480c]'/>
 
     <h2 className='lg:text-[44px] text-[32px]'>Blogs</h2>
@@ -37,7 +37,7 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
 
    <div className='cards service-cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 my-10 lg:flex-row justify-between '>
     {blog.map((item,index)=>{
-      return    <Card  className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
+      return    <Card  className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[530px] xl:h-[500px]  2xl:h-[690px]  flex flex-col items-center '>
       <CardActionArea onClick={()=> navigate(`/blog/${item.slug}`)} className='sm:h-[500px]'>
         <CardMedia
           component="img"
@@ -47,10 +47,10 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
           className=''
         />
         <CardContent>
-          <Typography gutterBottom variant="h5"  component="div" className='sm:h-[60px]'>
+          <Typography gutterBottom variant="h5"  component="div" className='sm:h-[60px] lg:h-[120px] xl:h-[70px]'>
             {item.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary" className='sm:h-[60px]'>
+          <Typography variant="body2" color="text.secondary" className='sm:h-[60px] lg:h-[150px] xl:h-[120px]'>
             {item.small_description}
           </Typography>
         </CardContent>

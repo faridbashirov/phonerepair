@@ -50,6 +50,14 @@ h5{
 img{
     object-fit: cover;
 }
-.contentWrapper{
-    margin-right: 15% !important;
+@media(max-width:499px){
+    .contentWrapper{
+        margin-right: 15% !important;
+    }
+}
+
+@media(min-width:1024px){
+    .contentWrapper{
+        margin-right: 15% !important;
+    }
 }

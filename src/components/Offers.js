@@ -37,8 +37,8 @@ const Offers = () => {
        <div className='flex flex-col lg:flex-row py-30 lg:py-0 w-[96%] lg:w-[90%] mx-auto  items-center  justify-between'> 
 
 
-         <div className=' flex flex-col items-center justify-between h-[700px]  w-[100%] lg:w-[33%] items-center  lg:[600px]'>
-         <Card onMouseOver={()=> Sethover(imageDict["screen"])}  className='relative flex flex-col items-center transition duration-300  h-fit-content ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
+         <div className=' flex flex-col items-center justify-between   w-[100%] lg:w-[33%] items-center  lg:h-[700px]'>
+         <Card onMouseOver={()=> Sethover(imageDict["screen"])}  className='relative flex flex-col items-center transition duration-300   ease-in-out w-[100%] mb-10 lg:mb-0 lg:w-[100%] h-[210px] lg:h-[200px]  hover:scale-110'>
       <CardActionArea>
        
         <CardContent className='text-start'>
@@ -59,7 +59,7 @@ const Offers = () => {
         </div>
       </CardActions>
     </Card>
-         <Card onMouseOver={()=> Sethover(imageDict["password"])}   className='relative flex flex-col items-center transition duration-300  h-fit-content ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
+         <Card onMouseOver={()=> Sethover(imageDict["password"])}   className='relative flex flex-col items-center transition duration-300   h-[210px]  mb-10 lg:mb-0 ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
       <CardActionArea>
        
         <CardContent className='text-start'>
@@ -80,7 +80,7 @@ const Offers = () => {
         </div>
       </CardActions>
     </Card>
-         <Card onMouseOver={()=> Sethover(imageDict["water"])}   className='relative flex flex-col items-center transition duration-300  h-fit-content ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
+         <Card onMouseOver={()=> Sethover(imageDict["water"])}   className='relative flex flex-col h-[210px]  mb-10 lg:mb-0  items-center transition duration-300   ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
       <CardActionArea>
        
         <CardContent className='text-start'>
@@ -106,8 +106,8 @@ const Offers = () => {
          <div className=' hidden lg:block text-center' >
             <img alt='service' className='w-[100%] lg:h-[850px] object-contain'  src={hover}></img>
          </div>
-         <div className=' flex flex-col  justify-between h-[700px] w-[100%]  lg:w-[33%] items-center mt-20 lg:mt-0 lg:h-[700px] '>
-         <Card  onMouseOver={()=> Sethover(imageDict["microphone"])} className='relative flex flex-col items-center transition duration-300  h-fit-content ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
+         <div className=' flex flex-col  justify-between  w-[100%]  lg:w-[33%] items-center mt-20 lg:mt-0 lg:h-[700px] '>
+         <Card  onMouseOver={()=> Sethover(imageDict["microphone"])} className='relative h-[210px]  mb-10 lg:mb-0  flex flex-col items-center transition duration-300   ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
       <CardActionArea >
        
         <CardContent className='text-start'>
@@ -128,7 +128,7 @@ const Offers = () => {
         </div>
       </CardActions>
     </Card>
-         <Card onMouseOver={()=> Sethover(imageDict["brokenlcd"])}  className='relative flex flex-col items-center transition duration-300  h-fit-content ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
+         <Card onMouseOver={()=> Sethover(imageDict["brokenlcd"])}  className='relative flex h-[210px]  mb-10 lg:mb-0 flex-col items-center transition duration-300   ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
       <CardActionArea>
        
         <CardContent className='text-start'>
@@ -149,7 +149,7 @@ const Offers = () => {
         </div>
       </CardActions>
     </Card>
-         <Card onMouseOver={()=> Sethover(imageDict["battery"])}   className='relative flex flex-col items-center transition duration-300  h-fit-content ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
+         <Card onMouseOver={()=> Sethover(imageDict["battery"])}   className='relative flex flex-col items-center transition duration-300  h-[210px]  mb-10 lg:mb-0  ease-in-out w-[100%] lg:w-[100%] lg:h-[200px]  hover:scale-110'>
       <CardActionArea>
        
         <CardContent className='text-start'>
