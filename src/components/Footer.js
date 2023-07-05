@@ -4,7 +4,7 @@ import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 import {AiOutlineInstagram} from "react-icons/ai"
 import {FaFacebookF} from "react-icons/fa"
-import {BsFacebook} from "react-icons/bs"
+
 
 import {HiLocationMarker} from 'react-icons/hi'
 import './Footer.css'

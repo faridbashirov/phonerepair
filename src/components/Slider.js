@@ -18,7 +18,7 @@ import {IoMdClose} from "react-icons/io"
 
 const Slider = () => {
     const [showModal, setShowModal] = React.useState(false);
-    const [modal,setModal]=useState("")
+   
     const [device,setDevice] = useState([])
    const [repair,setRepair] = useState([])
    const [status,setStatus] = useState(false)
