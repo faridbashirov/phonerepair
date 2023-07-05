@@ -10,7 +10,7 @@ const After = () => {
   const after =
     "https://fixar.templines.info/wp-content/uploads/2017/01/after.png";
   return (
-    <div className="mt-20 flex relative flex-col lg:flex-row  static w-[100%]  lg:w-[80%] mx-auto h-[auto] lg:h-[700px]   justify-center lg:justify-center xl:justify-center ">
+    <div className="mt-20 flex relative flex-col lg:flex-row  static w-[100%]  lg:w-[80%] mx-auto h-[auto] lg:h-[720px]   justify-center lg:justify-center xl:justify-center ">
         
             <div >
             <div className="mainWrapper">

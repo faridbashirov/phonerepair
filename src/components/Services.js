@@ -38,7 +38,7 @@ useEffect(()=>{
 
      <div className='cards service-cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 my-10 lg:flex-row justify-between '>
       {service.map((item,index)=>{
-        return   <Card  key={index} className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[450px] xl:h-[450px]  2xl:h-[600px]  flex flex-col items-center '>
+        return   <Card  key={index} className='card w-[96%] sm:w-[45%] lg:w-[23%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[500px] xl:h-[520px]  2xl:h-[600px]  flex flex-col items-center '>
         <CardActionArea onClick={()=> navigate(`/service/${item.slug}`)} className="sm:h-[500px]" >
           <CardMedia
             component="img"
@@ -51,7 +51,7 @@ useEffect(()=>{
             <Typography gutterBottom variant="h5" component="div" className='sm:h-[30px]'>
              {item.name}
             </Typography>
-            <Typography variant="body2" color="text.secondary" className='sm:h-[80px]'>
+            <Typography variant="body2" color="text.secondary" className='sm:h-[80px] lg:h-[150px] xl:h-[120px]'>
              {item.small_description}
             </Typography>
           </CardContent>
