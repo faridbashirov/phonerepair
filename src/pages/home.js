@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from '../components/Slider'
 import Services from '../components/Services'
 import Problem from '../components/Problem'
+import Offers from '../components/Offers'
 
 import After from '../components/After'
 import Blogs from '../components/Blogs'
