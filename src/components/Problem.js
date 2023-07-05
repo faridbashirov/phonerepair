@@ -245,31 +245,31 @@ const phonesproblems = {
 
  
     const phones = [{
-      name: "Iphone 14 Pro Max",
+      name: "iPhone 14 Pro Max",
       id: 1
     },
     {
-      name: "Iphone 14 Pro",
+      name: "iPhone 14 Pro",
       id: 2
     },
     {
-      name: "Iphone 14",
+      name: "iPhone 14",
       id: 3
     },
     {
-      name: "Iphone 13 Pro",
+      name: "iPhone 13 Pro",
       id: 4
     },
     {
-      name: "Iphone 13",
+      name: "iPhone 13",
       id: 5
     },
     {
-      name: "Iphone 13 Mini",
+      name: "iPhone 13 Mini",
       id: 6
     },
     {
-      name: "Iphone 12 Pro",
+      name: "iPhone 12 Pro",
       id: 7
     },
   ]

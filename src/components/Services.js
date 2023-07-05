@@ -33,8 +33,8 @@ useEffect(()=>{
       <VscTools className='text-5xl  text-[#f2480c]'/>
 
       <h2 className='lg:text-5xl text-[32px] '>Get started with your device repair</h2>
-      <p className='mt-5 w-[80%] sub-text'> Dolor sit amet consectetur elit eiusmod tempor dunt aliqua utas enim veniam tempore quis sed ipsum nostrud ipsum lorem
-amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliquat.</p>
+      <p className='mt-5 w-[80%] sub-text'> Our repair center specialises in fixing a wide range of electronic devices, including phones, tablets, laptops, and computers, ensuring your gadgets are in expert hands for a seamless repair experience.
+ ̰</p>
 
      <div className='cards service-cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 my-10 lg:flex-row justify-between '>
       {service.map((item,index)=>{

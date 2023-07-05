@@ -46,7 +46,7 @@ const Offers = () => {
           Smartphone Body Repair
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          Aabore dolore maga aliquat veniam nostrud exercitation utabore etas dolore magna aliquau enim .
+          Restore your smartphone's appearance with our professional smartphone body repair services.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -67,8 +67,7 @@ const Offers = () => {
           Universal Unlocking
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          Unlock your device from any carrier with our universal unlocking service, allowing you to use it with any SIM card worldwide.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -89,7 +88,7 @@ const Offers = () => {
           Water Damage Repair
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          Aabore dolore maga aliquat veniam nostrud exercitation utabore etas dolore magna aliquau enim .
+          Revive your water-damaged device with our expert water-damage repair services, ensuring a thorough restoration and maximum chances of recovery.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -116,7 +115,7 @@ const Offers = () => {
           Speaker Microphone Fix
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          Aabore dolore maga aliquat veniam nostrud exercitation utabore etas dolore magna aliquau enim .
+          Experience clear and crisp audio again with our speaker and microphone fix services, addressing any issues with your device's audio output and input functionalities.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -137,8 +136,7 @@ const Offers = () => {
           Broken LCD Repair
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          Say goodbye to the frustration of a broken LCD screen with our professional repair service, restoring your device's display to its pristine condition for a seamless visual experience.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -159,8 +157,7 @@ const Offers = () => {
             Battery
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          Regain optimal battery life and performance for your device with our battery repair and replacement services, ensuring long-lasting power to keep you connected throughout the day.
           </Typography>
         </CardContent>
       </CardActionArea>

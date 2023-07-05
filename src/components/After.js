@@ -10,7 +10,7 @@ const After = () => {
   const after =
     "https://fixar.templines.info/wp-content/uploads/2017/01/after.png";
   return (
-    <div className="flex relative flex-col lg:flex-row  static w-[100%]  lg:w-[80%] mx-auto h-[auto] lg:h-[700px]   justify-center lg:justify-center xl:justify-center ">
+    <div className="mt-20 flex relative flex-col lg:flex-row  static w-[100%]  lg:w-[80%] mx-auto h-[auto] lg:h-[700px]   justify-center lg:justify-center xl:justify-center ">
         
             <div >
             <div className="mainWrapper">
@@ -28,17 +28,17 @@ const After = () => {
             <div className="flex flex-col  items-start">
             <VscTools className="text-5xl text-[#f2480c] lg:mx-10 mb-5 icon mx-auto my-auto"/>
             <h2 className="text-center lg:text-start mx-auto lg:mx-0 after">Before & After</h2>
-            <p className="first-text">Dolor sit amet consectetur elit sed eiusmod tempor incididunt</p>
+            {/* <p className="first-text">Dolor sit amet consectetur elit sed eiusmod tempor incididunt</p> */}
             </div>
            <div className="flex flex-col  items-start my-10">
-            <h5>Use Only Genuine Parts</h5>
-            <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
-            <h5>Leaders in the Repair Industry</h5>
-            <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
-            <h5>Offer 6 Months Repair Warrenty</h5>
-            <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
-            <h5>Experienced Specialists at Work</h5>
-            <p className="text-start mb-5">Aabore dolore maga aliquat veniam nostrud exercitation utabore dolore sed ipsum magna aliquau enim</p>
+            <h5>Reliability</h5>
+            <p className="text-start mb-5">We prioritize reliability by offering expert repairs and high-quality replacement parts, ensuring your electronic device functions flawlessly for an extended period.</p>
+            <h5>Convenience</h5>
+            <p className="text-start mb-5">With our quick turnaround times, transparent pricing, and same-day repair options, we provide convenient solutions to minimize disruption and inconvenience caused by device issues.</p>
+            <h5>Expertise</h5>
+            <p className="text-start mb-5">Our skilled technicians possess extensive knowledge and experience in handling a wide range of electronic devices, guaranteeing accurate diagnoses and effective repairs for optimal performance.</p>
+            <h5>Customer Satisfaction</h5>
+            <p className="text-start mb-5">We are committed to your satisfaction, offering exceptional customer service, warranty coverage, and personalized assistance to ensure a positive and fulfilling experience with our electronic device services.</p>
             </div>
             </div>
         </div>

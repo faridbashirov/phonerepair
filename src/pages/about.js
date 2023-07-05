@@ -8,10 +8,19 @@ const about = () => {
          <div className='w-full lg:w-[45%] text-start'>
             <h2 className='text-5xl mb-10 footer-header'>Who We Are</h2>
             <p>
-            Welcome to Houston's leading mobile phone repair service provider, your one-stop solution for all your mobile device repair needs. Our expert team of skilled technicians is dedicated to delivering top-notch iPhone repairs, Samsung repairs, Windows desktop PC services, Apple Mac services, and comprehensive mobile phone repairs at competitive prices. We prioritize customer satisfaction and ensure your devices are back in working order quickly and efficiently.
-            Our state-of-the-art repair centre specializes in various repair services, including frame, button & switch, LCD & microphone, water damage & speaker, and more. Our years of experience and cutting-edge tools and techniques enable us to provide high-quality and timely repairs for your devices.
-            As a customer-centric business, we understand the importance of keeping your gadgets in optimal condition. We take pride in offering reliable and swift repair services that help you stay connected in today's fast-paced world. Our team of industry-leading technicians is skilled and committed to ensuring that every repair is performed to the highest standards.
-            Choose Us for all your mobile phone repair needs and experience the difference that comes with working with the best in the industry. Our commitment to quality, efficiency, and customer satisfaction sets us apart. Give your devices the care they deserve, and let our experts bring them back to life.
+            We are a leading phone repair provider located in Auburn, Alabama. With a strong focus on customer satisfaction, we have established ourselves as a trusted destination for reliable <strong>phone repairs</strong> in our community. Our skilled technicians are well-equipped to handle a variety of phone issues, from cracked screens to battery problems.
+            </p>
+            <p>
+            What sets us apart is our commitment to exceptional service. <strong>With over 250 positive reviews on Google</strong>, we have earned a reputation for delivering high-quality repairs and transparent pricing. We value your time and strive for quick turnaround times without compromising on quality. Our goal is to provide convenient and reliable solutions for all your phone repair needs.
+            </p>
+            <p>
+            At our repair center, we prioritize expertise and stay up-to-date with the latest phone models and repair techniques. This ensures accurate diagnoses and effective repairs, restoring your phone's optimal functionality. We also offer a range of phone accessories to enhance your device's performance and protection.
+            </p>
+            <p>
+            We appreciate the trust our customers have placed in us and continuously work to exceed expectations. When you choose us for your phone repair needs, you can be confident in our reliable and reputable service.
+            </p>
+            <p>
+            Thank you for considering our phone repair services. We look forward to serving you and providing the solutions you need to keep your phone in top condition.
             </p>
          </div>
          <div className='w-full lg:w-[50%] '>

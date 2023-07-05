@@ -35,7 +35,7 @@ const ServiceDetail = () => {
 
     console.log(service)
 
-
+    const sanitized = service.description;
   return (
     
         <div className=' pb-20 w-[96%] lg:w-[80%]  mx-auto'>
@@ -47,7 +47,7 @@ const ServiceDetail = () => {
                         <img alt='service' className='w-full h-[250px] lg:h-[300px] mb-5' src={service.image} />
                         <h2 className='lg:text-[34px] text-[24px] text-start font-semibold mb-5'>{service.name}</h2>
                         <p className='w-[96%] text-start'>
-                            {service.small_description}
+                            <span dangerouslySetInnerHTML={{ __html: sanitized }} />
                         </p>
 
 

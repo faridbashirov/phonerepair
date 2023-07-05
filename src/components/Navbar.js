@@ -80,7 +80,9 @@ const Navbar = () => {
         <div className='navbar py-10   w-full bg-[#2d363e] text-white h-[120px] lg:h-[100px] flex items-center  '>
             <div className=' w-[80%] mx-auto flex justify-between items-center'>
                 <div className='logo'>
+                  <a href="/">
                     <img alt="service" className='w-[150px] h-[50px] object-cover    ' src={logo}></img>
+                  </a>
                     
                 </div>
                 

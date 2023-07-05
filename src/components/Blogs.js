@@ -31,9 +31,9 @@ useEffect(()=>{
     <div className='flex flex-col w-[96%] lg:w-[90%] mx-auto items-center'>
     <VscTools className='text-5xl  text-[#f2480c]'/>
 
-    <h2 className='lg:text-[44px] text-[32px]'>Get started with your device repair</h2>
-    <p className='mt-5 w-[80%] sub-text'> Dolor sit amet consectetur elit eiusmod tempor dunt aliqua utas enim veniam tempore quis sed ipsum nostrud ipsum lorem
-amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliquat.</p>
+    <h2 className='lg:text-[44px] text-[32px]'>Blogs</h2>
+    {/* <p className='mt-5 w-[80%] sub-text'> Dolor sit amet consectetur elit eiusmod tempor dunt aliqua utas enim veniam tempore quis sed ipsum nostrud ipsum lorem
+amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliquat.</p> */}
 
    <div className='cards service-cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 my-10 lg:flex-row justify-between '>
     {blog.map((item,index)=>{

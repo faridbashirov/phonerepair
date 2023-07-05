@@ -11,11 +11,21 @@ const Buy = () => {
      </div>
      <div className='w-full lg:w-[45%] text-start'>
         <h2 className='text-5xl mb-10 first-text'>Who We Are</h2>
-        <p className='mb-20'>
-        Welcome to Houston's leading mobile phone repair service provider, your one-stop solution for all your mobile device repair needs. Our expert team of skilled technicians is dedicated to delivering top-notch iPhone repairs, Samsung repairs, Windows desktop PC services, Apple Mac services, and comprehensive mobile phone repairs at competitive prices. We prioritize customer satisfaction and ensure your devices are back in working order quickly and efficiently.
-        Our state-of-the-art repair centre specializes in various repair services, including frame, button & switch, LCD & microphone, water damage & speaker, and more. Our years of experience and cutting-edge tools and techniques enable us to provide high-quality and timely repairs for your devices.
-        As a customer-centric business, we understand the importance of keeping your gadgets in optimal condition. We take pride in offering reliable and swift repair services that help you stay connected in today's fast-paced world. Our team of industry-leading technicians is skilled and committed to ensuring that every repair is performed to the highest standards.
+        <p>
+        Upgrade your phone experience by trading in your used device and replacing it with a brand new one. At our store, we offer a hassle-free process that allows you to sell your used phone and put its value towards the purchase of a new device.
         Choose Us for all your mobile phone repair needs and experience the difference that comes with working with the best in the industry. Our commitment to quality, efficiency, and customer satisfaction sets us apart. Give your devices the care they deserve, and let our experts bring them back to life.
+        </p>
+        <p>
+        We understand that technology advances rapidly, and you may want to stay up to date with the latest features and innovations. By selling your used phone to us, you can unlock its residual value and apply it towards the purchase of a new phone, making the upgrade more affordable.
+        </p>
+        <p>
+        Our knowledgeable team will assess the condition of your used phone and provide you with a fair and competitive offer. Once the value is determined, you can explore our extensive collection of new phones, including the latest models from top brands. Choose the device that suits your needs, and we will deduct the value of your used phone from the total cost.
+        </p>
+        <p>
+        Not only does this process simplify the upgrade process, but it also ensures that your used phone finds a new home, reducing electronic waste and promoting sustainability.
+        </p>
+        <p className='mb-20'>
+        Visit our store today to explore the possibilities of trading in your used phone and treating yourself to a new, cutting-edge device. Upgrade to the latest technology while maximizing the value of your used phone with our convenient and cost-effective solution.
         </p>
         <Link to="#" className='btn-call uppercase font-semibold px-10 py-5 mt-20'>Call 04004400404</Link>
      </div>
