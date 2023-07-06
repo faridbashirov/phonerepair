@@ -122,9 +122,9 @@ const Footer = () => {
               </li>
 
               <li>
-                <Link to="#"  class="text-white transition hover:text-[#f2480c] d-flex  w-full lg:w-[unset]  items-center">
+                <Link to="mailto:phonerepair.aj@gmail.com"  class="text-white transition hover:text-[#f2480c] d-flex  w-full lg:w-[unset]  items-center">
                   <MdEmail  className='mr-2'/>
-               example@gmail.com
+                  phonerepair.aj@gmail.com
                 </Link>
               </li>
 
