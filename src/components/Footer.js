@@ -117,7 +117,7 @@ const Footer = () => {
                 
                 <Link to="#"  class="text-white transition hover:text-[#f2480c] d-flex w-full lg:w-[unset] items-center">
                 <BsFillTelephoneFill className='mr-2'/>
-                 0400404040
+                +1 (334) 734 5252
                 </Link>
               </li>
 
@@ -131,7 +131,7 @@ const Footer = () => {
               <li>
                 <Link to="#"  class="text-white transition  w-full lg:w-[unset]  hover:text-[#f2480c]">
                   <HiLocationMarker  className='mr-2'/>
-                Baku,Azerbaijan
+                  117 N College str, Auburn Al, 36830
                 </Link>
               </li>
             

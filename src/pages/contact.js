@@ -62,7 +62,7 @@ const Contact = () => {
             <div className='w-full lg:w-[45%] text-start '>
                  <h2 className='text-[32px] lg:text-[44px] font-semibold mb-5 footer-header'>Customer Support</h2>
                  <p className='text-md'>Have a question?Need some help?Get in touch with us.</p>
-                 <div className='mb-5'><BiPhoneCall className='text-[27px] mr-2 text-gray-500 '/> <Link to="#" className='text-lg font-medium text-gray-500 hover:text-[#f2480c]'>+1 (832) 457 5888 </Link></div>
+                 <div className='mb-5'><BiPhoneCall className='text-[27px] mr-2 text-gray-500 '/> <Link to="+1 (334) 734 5252" className='text-lg font-medium text-gray-500 hover:text-[#f2480c]'>+1 (334) 734 5252</Link></div>
                  <div className='mb-5'><BsEnvelope className='text-[27px] mr-2 text-gray-500 '/> <Link to="#" className='text-lg font-medium  text-gray-500 hover:text-[#f2480c]'>info@fixzonecypress.com </Link></div>
                  <div className='mb-5 flex items-start'><AiOutlineClockCircle className='text-[27px] mr-2  text-gray-500   '/> <span className='leading-[30px] w-[80%] text-gray-500 '>Hours of operation: <br/>
                 Mon – Fri: 9:00 a.m. to 8:00 p.m. <br/>

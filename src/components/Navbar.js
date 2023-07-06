@@ -58,7 +58,7 @@ const Navbar = () => {
         <div className='topheader w-[80%] h-full mx-auto justify-between hidden items-center lg:flex '>
             <div className='leftside'>
                 <ul>
-                <li className='call-number'> <Link to="" className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2 text-[20px]'>12312321312</span> </Link></li>
+                <li className='call-number'> <Link to="tel:+1 (334) 734 5252" className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2 text-[20px]'>+1 (334) 734 5252</span> </Link></li>
                 
                 </ul>
             </div>
