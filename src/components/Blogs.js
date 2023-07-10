@@ -47,7 +47,7 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
           className=''
         />
         <CardContent>
-          <Typography gutterBottom variant="h5"  component="div" className='sm:h-[60px] lg:h-[120px] xl:h-[70px]'>
+          <Typography gutterBottom variant="h6"  component="div" className='sm:h-[60px] lg:h-[120px] xl:h-[70px]'>
             {item.title}
           </Typography>
           <Typography variant="body2" color="text.secondary" className='sm:h-[60px] lg:h-[150px] xl:h-[120px]'>

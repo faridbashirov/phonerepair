@@ -40,8 +40,8 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
 
    <div className='cards flex flex w-full  flex-wrap gap-5 shadow-lg-1000 lg:flex-row '>
     { blog.map((item,index)=>{
-      return  <Card key={index}  className='card w-[96%] sm:w-[47%] pb-5 lg:w-[31%]  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[520px] xl:h-[500px]  2xl:h-[680px]  flex flex-col items-center mb-15'>
-      <CardActionArea onClick={()=> navigate(`/blog/${item.slug}`)}>
+      return  <Card  className='card w-[96%] sm:w-[47%] lg:w-[31%] pb-5  h-[auto] sm:h-[500px] md:h-[500px] lg:h-[530px] xl:h-[500px]  2xl:h-[690px]  flex flex-col items-center '>
+      <CardActionArea onClick={()=> navigate(`/blog/${item.slug}`)} className='sm:h-[500px]'>
         <CardMedia
           component="img"
           height="140"
@@ -50,19 +50,20 @@ amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et 
           className=''
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h6"  component="div" className='sm:h-[60px] lg:h-[120px] xl:h-[70px]'>
             {item.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" className='sm:h-[60px] lg:h-[150px] xl:h-[120px]'>
             {item.small_description}
           </Typography>
         </CardContent>
-      </CardActionArea>
+      
       <CardActions>
-        <button onClick={()=> navigate(`/blog/${item.slug}`)} size="small" color="primary" className='border-2 border-[#f2480c] hover:bg-[#f2480c] hover:text-white py-2 px-3'>
+      <button onClick={()=> navigate(`/blog/${item.slug}`)} size="small" color="primary" className='border-2 mx-auto border-[#f2480c] hover:bg-[#f2480c] hover:text-white py-2 px-3'>
           Read more
         </button>
       </CardActions>
+      </CardActionArea>
     </Card>
     })}
   
