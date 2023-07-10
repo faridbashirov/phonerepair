@@ -1,5 +1,9 @@
 .card{
     transition: all .4s ease-in-out;
+    
+}
+.blog-title{
+    font-family: 'Open Sans', sans-serif !important;
 }
 .card:hover{
     transform: scale(1.05);
