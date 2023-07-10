@@ -22,4 +22,9 @@ button{
     box-shadow: none;
     border: none;
     border-radius: 0;
+    position: relative !important;
+}
+
+.css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root{
+    position: unset !important;
 }

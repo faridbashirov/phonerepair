@@ -5,6 +5,18 @@
 .blog-title{
     font-family: 'Open Sans', sans-serif !important;
 }
+
+.css-1m5f78l{
+    position: unset !important;
+}
+.css-jo3ec3{
+    position: absolute !important;
+    height: 100% !important;
+}
+.css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root{
+    position: unset !important;
+}
+
 .card:hover{
     transform: scale(1.05);
 }
