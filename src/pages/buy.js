@@ -1,10 +1,19 @@
 import React from 'react'
 import '../components/Sell.css'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 const Buy = () => {
   return (
     <div className='w-full sell-section '>
+       <Helmet>
+      
+ 
+      <title>Buy Phones in Auburn AL | Quality Guaranteed</title>
+      <meta data-react-helmet="true" name='description' content="Purchase quality-assured, pre-owned phones in Auburn. Explore our wide selection of devices at great prices. Warranty included!" />
+      
+      
+            </Helmet>
     <div className='w-[96%] lg:w-[80%]  mx-auto flex py-20 flex-col lg:flex-row justify-between items-center'>
     <div className='w-full lg:w-[50%] 2xl:w-[35%] '>
         <img alt='service' className='w-full md:w-[full] h-[auto] mt-10 lg:mt-0 lg:h-[330px] xl:h-[380px] 2xl:h-[450px]' src='https://fixzonecypress.com/static/images/about-1.png'/>

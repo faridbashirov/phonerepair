@@ -1,9 +1,17 @@
 import React from 'react'
 import '../components/About.css'
+import { Helmet } from 'react-helmet'
 
 const about = () => {
   return (
+
+
     <div className='w-full about-section '>
+    <Helmet>
+    
+    <title>About Phone Repair Auburn | Your Trusted Tech Repair Experts</title>
+    <meta name='description' content="Learn more about Phone Repair Auburn, your local tech repair specialists. Over 10,000 customers served with dedication and excellence." />
+   </Helmet>
         <div className='w-[96%] lg:w-[80%] mx-auto flex py-20 flex-col lg:flex-row justify-between items-center'>
          <div className='w-full lg:w-[45%] text-start'>
             <h2 className='text-5xl mb-10 footer-header'>Who We Are</h2>
@@ -30,6 +38,7 @@ const about = () => {
 
         </div>
     </div>
+ 
   )
 }
 

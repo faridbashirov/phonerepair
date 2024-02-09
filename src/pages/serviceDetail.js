@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect,useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 
 const ServiceDetail = () => {
@@ -39,6 +40,36 @@ const ServiceDetail = () => {
   return (
     
         <div className=' pb-20 w-[96%] lg:w-[80%]  mx-auto'>
+             {slug==="phone-repair" ? (
+                 <Helmet>
+            
+    
+                 <title>Professional Phone Repair in Auburn AL | Quick & Efficient</title>
+                 <meta name='description' content="Expert phone repair services in Auburn. From screen replacements to battery issues, we fix it all. Get your phone working like new today!" />
+                </Helmet>
+           
+      ) : slug==="tablets-repair" ? (
+        <Helmet>
+            
+    
+        <title>Tablet Repair Services in Auburn AL | Trusted Technicians</title>
+        <meta name='description' content="Auburn's top tablet repair service. We handle screen repairs, battery replacements, and more. Fast turnaround to keep you connected." />
+       </Helmet>
+      ) : slug==="laptop-repair" ? (
+        <Helmet>
+            
+    
+        <title>Laptop Repair in Auburn AL | Fast, Reliable Service</title>
+        <meta name='description' content="Professional laptop repair in Auburn. We solve hardware/software issues, offering quality repairs with quick service. Contact us today!" />
+       </Helmet>
+      ) :   <Helmet>
+            
+    
+      <title>Computer Repair Experts in Auburn AL | Comprehensive Service</title>
+      <meta name='description' content="Complete computer repair solutions in Auburn. From upgrades to virus removal, our experts have you covered. Ensure your computer's peak performance!" />
+     </Helmet>
+      }
+           
             <div className='w-full flex lg:flex-row flex-col justify-between mt-10'>
                 <div className='flex flex-col w-[full]  lg:w-[67%]  items-center'>
 

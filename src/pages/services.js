@@ -8,6 +8,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {  CardActionArea, CardActions } from '@mui/material';
 import ClipLoader from "react-spinners/ClipLoader";
+import { Helmet } from 'react-helmet';
 
 
 
@@ -36,6 +37,12 @@ useEffect(()=>{
 },[])
   return (
     <div className='w-[96%] lg:w-[80%]  mx-auto pt-10'>
+       <Helmet>
+    
+    <title>Professional Phone Repair in Auburn AL | Quick & Efficient</title>
+    <meta name='description' content="Expert phone repair services in Auburn. From screen replacements to battery issues, we fix it all. Get your phone working like new today!" />
+   </Helmet>
+
         <h2 className='lg:text-5xl text-[32px] font-semibold '>Get started with your device repair</h2>
       <p className='mt-5 w-[full] sub-text'> Dolor sit amet consectetur elit eiusmod tempor dunt aliqua utas enim veniam tempore quis sed ipsum nostrud ipsum lorem
 amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliquat.</p>

@@ -8,6 +8,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions } from '@mui/material';
 import '../components/Blog-page.css'
+import { Helmet } from 'react-helmet';
 
 
 const Blog = () => {
@@ -29,6 +30,14 @@ useEffect(()=>{
 },[])
   return (
     <div className=' py-20 w-[96%] lg:w-[96%] mx-auto'>
+       <Helmet>
+      
+ 
+      <title>Phone Repair Auburn Blog | Tips, Guides, and Tech News</title>
+      <meta data-react-helmet="true" name='description' content="Stay updated with the latest in tech repair. Read our blog for tips, guides, and news from your trusted Auburn phone repair experts." />
+      
+      
+            </Helmet>
        <VscTools className='text-5xl  text-[#f2480c]'/>
 
 <h2 className='lg:text-[44px] text-[32px] font-semibold'>Get started with your device repair</h2>

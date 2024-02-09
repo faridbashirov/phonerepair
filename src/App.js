@@ -14,13 +14,22 @@ import ServiceDetail from './pages/serviceDetail';
 import Estimate from './pages/estimate';
 
 import { Routes,Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
+  
+
     <div className="App">
+  
+        <Helmet>
+          <title>App Titlesdfsa</title>
+          <meta name="description" content="Asfdgfsdgdgsdgsdg" />
+         </Helmet>
       <Routes >
         <Route element={<Navbar/>}>
         <Route path='/' element={<Home/>}/>
+        
         <Route path='about' element={<About/>}/>
         <Route path='sell' element={<Sell/>}/>
         <Route path='buy' element={<Buy/>}/>
@@ -36,8 +45,13 @@ function App() {
          
         
      </Routes>
+  
+    
+     
      
     </div>
+  
+   
   );
 }
 
