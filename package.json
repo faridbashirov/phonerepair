@@ -19,11 +19,11 @@
     "react-compare-image": "^3.4.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    
+    "react-helmet-async": "^1.0.7",
     "react-icons": "^4.8.0",
     "react-multi-carousel": "^2.8.3",
     "react-router-dom": "^6.11.1",
-    
+    "react-script-tag": "^1.1.2",
     "react-scripts": "5.0.1",
     "react-share": "^4.4.1",
     "react-spinners": "^0.13.8",
