@@ -6,6 +6,7 @@ import {AiOutlineClockCircle} from 'react-icons/ai'
 import {toast, ToastContainer } from "react-toastify";
 import '../components/contact.css'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
    const [error,setError]=useState(false)
@@ -46,6 +47,14 @@ const Contact = () => {
 
   return (
     <div className='w-full'>
+            <Helmet>
+      
+ 
+      <title>Contact Phone Repair Auburn | Quick Support & Inquiries</title>
+      <meta data-react-helmet="true" name='description' content="Need phone repair in Auburn? Contact us for quick support, service inquiries, and to get your devices fixed by experts. Fast response guaranteed!" />
+      
+      
+            </Helmet>
         <div className='w-[96%] lg:w-[80%]  mx-auto flex py-20 lg:px-10 px-3 justify-between flex-col lg:flex-row'>
         <ToastContainer
         position='top-right'
