@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c456ac6.css",
-    "main.js": "/static/js/main.86b78c15.js",
+    "main.css": "/static/css/main.de059498.css",
+    "main.js": "/static/js/main.a381a15f.js",
     "static/media/motorola.jpeg": "/static/media/motorola.ddfd19ccf43834828fe0.jpeg",
     "static/media/logo.png": "/static/media/logo.f18e1b28d86722f0bd8a.png",
     "static/media/apple.jpeg": "/static/media/apple.770916a6baba3b8d55a2.jpeg",
@@ -11,11 +11,11 @@
     "static/media/samsung.avif": "/static/media/samsung.764743933569f9a86e04.avif",
     "index.html": "/index.html",
     "static/media/index.cjs": "/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.5c456ac6.css.map": "/static/css/main.5c456ac6.css.map",
-    "main.86b78c15.js.map": "/static/js/main.86b78c15.js.map"
+    "main.de059498.css.map": "/static/css/main.de059498.css.map",
+    "main.a381a15f.js.map": "/static/js/main.a381a15f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c456ac6.css",
-    "static/js/main.86b78c15.js"
+    "static/css/main.de059498.css",
+    "static/js/main.a381a15f.js"
   ]
 }

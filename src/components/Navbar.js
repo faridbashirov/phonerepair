@@ -54,15 +54,15 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className=' py-10 w-full h-[40px]  bg-[#22282e] hidden lg:block  text-white '>
-        <div className='topheader w-[80%] h-full mx-auto justify-between hidden items-center lg:flex '>
-            <div className='leftside'>
+        <div className=' py-10 w-full h-[40px]  bg-[#22282e]  lg:block  text-white '>
+        <div className='topheader w-[80%] h-full mx-auto justify-between items-center lg:flex '>
+            <div className='leftside   '>
                 <ul>
                 <li className='call-number'> <Link to="tel:+1 (334) 734 5252" className='text-white text-xl flex items-center '><FiPhoneCall  className='trin-trin text-[#f2480c] '/> <span className='mx-2 text-[20px]'>+1 (334) 734 5252</span> </Link></li>
                 
                 </ul>
             </div>
-            <div className='rightside items-center flex w-[100%] sm:w-[100%] md:w-[50%] lg:w-[55%] xl:w-[43%] xxl:w-[25%] justify-between '> 
+            <div className='rightside items-center  hidden w-[100%] sm:w-[100%] md:w-[50%] lg:w-[55%] xl:w-[43%] xxl:w-[25%] justify-between  lg:flex  '> 
                 
                 <ul className='flex   justify-between items-center'>
                 <span className='text-[14px] text-[#abafb2]'>Follow us</span>

@@ -10,6 +10,7 @@ import Blogs from '../components/Blogs'
 import Sell from '../components/Sellsection'
 import Carousels from '../components/Carousel'
 import { Helmet } from 'react-helmet'
+ import '../components/home.css'
 
 
 
@@ -37,8 +38,8 @@ const Home = () => {
      
         <Slider/>
         <Problem/>
-        <div  className='w-[96%]' src='https://cdn.trustindex.io/loader.js?09c837e25a9734288e9675cf71b'></div>
-        <div  className='w-[96%]' src='https://cdn.trustindex.io/loader.js?fd74e1b2554f3433c046e264256'></div>
+        <div src='https://cdn.trustindex.io/loader.js?09c837e25a9734288e9675cf71b'></div>
+        <div   src='https://cdn.trustindex.io/loader.js?fd74e1b2554f3433c046e264256'></div>
         <Services/>
         <Offers/>
         

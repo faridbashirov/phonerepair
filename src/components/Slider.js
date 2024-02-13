@@ -12,7 +12,7 @@ import '../components/estimate.css'
 import { useState,useEffect } from 'react'
 import axios from 'axios'
 import {IoMdClose} from "react-icons/io"
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -95,9 +95,17 @@ const contactform=(e)=>{
     
       
   return (
-    <div className=' slider relative h-[400px] w-full flex items-center justify-center bg-white lg:h-[700px] lg:py-0 lg:px-0 '>
+    
+    <div className=' slider relative h-[501px] w-full flex items-center justify-center bg-white lg:h-[700px] lg:py-0 lg:px-0 '>
+       <Helmet>
+       <script defer async src='https://cdn.trustindex.io/loader.js?9cf632825ca5475aa4768c7add4'></script>
+       <script defer async src='https://cdn.trustindex.io/loader.js?a9c1f2625b0d47516f86ceb821c'></script>
+ 
+<title>Top Phone Repair Service in Auburn AL | Over 10.000+ Customers</title>
+<meta data-react-helmet="true" name='description' content="Expert phone repair in Auburn AL with 10,000+ satisfied customers. Fast, reliable service for all major brands. See why we're highly rated!" />
+</Helmet>
       <div className='w-full absolute h-[100%] slider-overlay py-20 px-10'>
-        <div className='w-full mx-auto flex flex-col items-start justify-between lg:flex-row lg:w-[85%]  '>
+        <div className='w-full mx-auto flex flex-col items-center justify-between lg:flex-row lg:w-[85%]  '>
             <div className='w-[100%] flex flex-col items-start  lg:w-[55%]'>
 
                 <div className='homeheader w-full flex items-start justify-between  '>
@@ -114,6 +122,10 @@ const contactform=(e)=>{
 
                 </p>
                 <button onClick={() => setShowModal(true)} className='border-0 bg-[#f2480c] mt-10 text-white button-fix  uppercase mx-auto lg:mx-0  '><Link>let fix your device </Link></button>
+                <div className='flex  mt-7 items-center w-[80%]  gap-2 '>
+                <div   src='https://cdn.trustindex.io/loader.js?9cf632825ca5475aa4768c7add4'></div>
+                <div   src='https://cdn.trustindex.io/loader.js?a9c1f2625b0d47516f86ceb821c'></div>
+                </div>
 
             </div>
 

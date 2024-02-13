@@ -1,0 +1,12 @@
+.ti-widget{
+    width: 80% !important;
+    margin: auto !important;
+}
+
+@media (max-width:  992px) {
+    .ti-widget{
+        width: 96% !important;
+        margin: auto !important;
+    }
+   
+  }
