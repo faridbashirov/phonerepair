@@ -96,11 +96,12 @@ const contactform=(e)=>{
       
   return (
     
-    <div className=' slider relative h-[501px] w-full flex items-center justify-center bg-white lg:h-[700px] lg:py-0 lg:px-0 '>
+    <div className=' slider relative h-[600px] w-full flex items-center justify-center bg-white lg:h-[700px] lg:py-0 lg:px-0 '>
        <Helmet>
-       <script defer async src='https://cdn.trustindex.io/loader.js?9cf632825ca5475aa4768c7add4'></script>
+        <script defer async src='https://cdn.trustindex.io/loader.js?9cf632825ca5475aa4768c7add4'></script>
        <script defer async src='https://cdn.trustindex.io/loader.js?a9c1f2625b0d47516f86ceb821c'></script>
  
+      
 <title>Top Phone Repair Service in Auburn AL | Over 10.000+ Customers</title>
 <meta data-react-helmet="true" name='description' content="Expert phone repair in Auburn AL with 10,000+ satisfied customers. Fast, reliable service for all major brands. See why we're highly rated!" />
 </Helmet>
@@ -122,7 +123,7 @@ const contactform=(e)=>{
 
                 </p>
                 <button onClick={() => setShowModal(true)} className='border-0 bg-[#f2480c] mt-10 text-white button-fix  uppercase mx-auto lg:mx-0  '><Link>let fix your device </Link></button>
-                <div className='flex  mt-7 items-center w-[80%]  gap-2 '>
+                <div className='flex flex-col md:flex-row justify-center md:justify-start w-full  mt-7 items-center md:w-[80%]  gap-2 '>
                 <div   src='https://cdn.trustindex.io/loader.js?9cf632825ca5475aa4768c7add4'></div>
                 <div   src='https://cdn.trustindex.io/loader.js?a9c1f2625b0d47516f86ceb821c'></div>
                 </div>
