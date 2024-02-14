@@ -7,7 +7,6 @@
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@gumgum/react-script-tag": "^0.0.3",
     "@mui/material": "^5.12.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -24,7 +23,6 @@
     "react-icons": "^4.8.0",
     "react-multi-carousel": "^2.8.3",
     "react-router-dom": "^6.11.1",
-    "react-script-tag": "^1.1.2",
     "react-scripts": "5.0.1",
     "react-share": "^4.4.1",
     "react-spinners": "^0.13.8",
